@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Página vendas</h1>
+    <p>Vendas = R$ 5000,00</p>
+    <a href="index.html">Voltar para pagina inicial</a>
+    <script>
+        const vendas = parseFloat(document.querySelector('p').textContent.replace('Vendas = R$ ', ''));
+        const mediaVendas = vendas / 12;
+        document.write(`Média de vendas por mês: R$ ${mediaVendas.toFixed(2)}`);
+    </script>
+    <p>Média de vendas por mês: R$ 416.67</p>
+</body>
+</html>
