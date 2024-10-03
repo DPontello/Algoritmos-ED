@@ -1,69 +1,214 @@
-/*
-Enunciado 2
-
-Os motociclistas da região decidiram se reunir em uma associação para estabelecer parcerias com oficinas mecânicas especializadas e fornecedores de peças e acessórios de
-modo a conseguir vantagens para todos: os serviços em preço mais em conta e a fidelização dos clientes para as oficinas e lojas. A primeira atitude foi realizar o levantamento
-de todos que gostariam de participar da associação registrando seu nome, marca, modelo e ano da motocicleta, e telefone para contato. A partir desse primeiro cadastro, os
-dirigentes da associação buscaram por oficinas especializadas e lojas de peças e acessórios das marcas identificadas no cadastro inicial.
-
-A associação precisa realizar o cadastro das oficinas e lojas, registrar os acordos de parceria identificando o nome da oficina ou loja, as marcas atendidas por ela e o tipo
-de benefício que será dado (desconto por serviço, brinde ou revisão gratuita após 5 serviços realizados). A associação também poderá, sempre que solicitado, consultar o nome
-das oficinas ou lojas que atendem  uma determinada marca. Analise a descrição acima, identifique quais são as entidades a serem tratadas como classes, quais os atributos de
-cada uma delas e qual o comportamento esperado (os métodos) de cada entidade.
-*/
 #include <iostream>
 #include <vector>
 
 using namespace std;
 
-class motociclista{
-    private: 
-        string nome;
-        string marca;
-        string modelo;
-        int ano;
-        string contato;
+class Motociclista {
+private:
+    string nome;
+    string marca;
+    string modelo;
+    int ano;
+    string contato;
 
-    public: 
-        motociclista(string n, string m, string mod, int a, string telefone);
-        
-        string getMarca(){
-            return marca;
-        }
+public:
+    Motociclista(string n, string m, string mod, int a, string telefone);
+
+    string getMarca() {
+        return marca;
+    }
 };
 
-motociclista :: motociclista(string n, string m, string mod, int a, string telefone) : 
-nome(n),marca(m),modelo(mod),ano(a),contato(telefone){};
+// Construtor Motociclista
+Motociclista::Motociclista(string n, string m, string mod, int a, string telefone)
+    : nome(n), marca(m), modelo(mod), ano(a), contato(telefone) {}
 
-class oficina{
-    private: 
-        string nome;
-        vector<string> marcasAtendidas;
-        string tipoBeneficio;
 
-    public:
-        oficina(string n, string beneficio);
-        bool atendeMarca(string marca);
+class Oficina {
+private:
+    string nome;
+    vector<string> marcasAtendidas;
+    string tipoBeneficio;
 
-        string getNome(){
-            return nome;
-        }
+public:
+    Oficina(string n, string beneficio);
+    bool atendeMarca(string marca);
+    void adicionarMarcas(string marca);
 
-        string getBeneficio(){
-            return tipoBeneficio;
-        }
+    string getNome() {
+        return nome;
+    }
+
+    string getBeneficio() {
+        return tipoBeneficio;
+    }
 };
 
-//Construtor
-oficina :: oficina(string n, string beneficio) :
-nome(n),tipoBeneficio(beneficio){};
+// Construtor Oficina
+Oficina::Oficina(string n, string beneficio)
+    : nome(n), tipoBeneficio(beneficio) {}
 
-
-bool oficina :: atendeMarca(string marca){
-    for(string m : marcasAtendidas){
-        if (m == marca){
+bool Oficina::atendeMarca(string marca) {
+    for (string m : marcasAtendidas) {
+        if (m == marca) {
             return true;
         }
     }
     return false;
 }
+
+void Oficina::adicionarMarcas(string marca) {
+    marcasAtendidas.push_back(marca);
+}
+
+class Associacao {
+private:
+    vector<Motociclista> motociclistas;
+    vector<Oficina> oficinas;
+
+public:
+    Associacao() {}
+
+    void adicionarMotociclista(Motociclista novoMotociclista);
+    void adicionarOficina(Oficina novaOficina);
+    void consultarOficinasPorMarca(string marca);
+};
+
+// Adiciona um novo motociclista à associação
+void Associacao::adicionarMotociclista(Motociclista novoMotociclista) {
+    motociclistas.push_back(novoMotociclista);
+}
+
+// Adiciona uma nova oficina à associação
+void Associacao::adicionarOficina(Oficina novaOficina) {
+    oficinas.push_back(novaOficina);
+}
+
+// Consulta oficinas que atendem a uma determinada marca
+void Associacao::consultarOficinasPorMarca(string marca) {
+    cout << "Oficinas que atendem a marca " << marca << ":" << endl;
+    for (Oficina o : oficinas) {
+        if (o.atendeMarca(marca)) {
+            cout << o.getNome() << " - Benefício: " << o.getBeneficio() << endl;
+        }
+    }
+}
+
+int main() {
+    // Exemplo de uso
+    Associacao associacao;
+
+    Motociclista m1("João", "Honda", "CB500", 2021, "99999-9999");
+    Motociclista m2("Carlos", "Yamaha", "YZF-R3", 2019, "88888-8888");
+
+    Oficina o1("Oficina do Zé", "Desconto de 10%");
+    o1.adicionarMarcas("Honda");
+    o1.adicionarMarcas("Yamaha");
+
+    Oficina o2("Oficina MotoMax", "Brinde após 5 serviços");
+    o2.adicionarMarcas("Yamaha");
+
+    associacao.adicionarMotociclista(m1);
+    associacao.adicionarMotociclista(m2);
+    associacao.adicionarOficina(o1);
+    associacao.adicionarOficina(o2);
+
+    associacao.consultarOficinasPorMarca("Honda");
+    associacao.consultarOficinasPorMarca("Yamaha");
+
+    return 0;
+}
+
+
+/*
+PSEUDOCODIGO
+class Motociclista{
+    private:
+    string nome;
+    string marca;
+    string modelo;
+    int ano;
+    string contato;
+
+    public: 
+    Motociclista(string n, string m, string mod, int a, string telefone);
+    string getMarca();
+};
+
+Motociclista :: Motociclista(string n, string m, string mod, int a, string telefone){
+    o contrutor da classe motociclista vai inicialziar os atributos
+}
+
+strint Motociclista :: getMarca(){
+    vai retornar o nome da marca
+}
+
+class Oficina{
+    private:
+    string nome;
+    vector<string> marcasAtendidas;
+    string tipoBeneficio;
+
+    public: 
+    Oficina(string n, string beneficio);
+    bool atendeMarca(string marca);
+    void adicionarMarcas(string marca);
+    string getNome();
+    string getBeneficio();
+};
+
+Oficina :: Oficina(string n, string beneficio){
+    o construtor da classe oficina vai inicializar os atributos
+}
+
+bool Oficina :: atendeMarca(string marca){
+    vai verificar se a marca está na lista de marcas atendidas
+}
+
+void Oficina :: adicionarMarcas(string marca){
+    vai adicionar a marca à lista de marcas atendidas
+}
+
+string Oficina :: getNome(){
+    vai retornar o nome da oficina
+}
+
+string Oficina :: getBeneficio(){
+    vai retornar o tipo de beneficio da oficina
+}
+
+class Associacao{
+    private:
+    vector<Motociclista> motociclistas;
+    vector<Oficina> oficinas;
+
+    public: 
+    Associacao();
+    ~Associacao();
+    void adicionarMotociclista(Motociclista novoMotociclista);
+    void adicionarOficina(Oficina novaOficina);
+    void consultarOficinasPorMarca(string marca);
+
+};
+
+Associacao :: Associacao(){
+    vai inicializar as listas de motociclistas e oficinas
+}
+
+Associacao :: ~Associacao(){
+    vai destruir as listas de motociclistas e oficinas
+}
+
+void Associacao :: adicionarMotociclista(Motociclista novoMotociclista){
+    vai adicionar um novo motociclista à lista de motociclistas
+}
+
+void Associacao :: adicionarOficina(Oficina novaOficina){
+    vai adicionar uma nova oficina à lista de oficinas
+}
+
+void Associacao :: consultarOficinasPorMarca(string marca){
+    vai imprimir as oficinas que atendem a uma determinada marca
+}
+
+*/
