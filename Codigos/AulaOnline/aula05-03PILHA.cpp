@@ -40,7 +40,7 @@ Pilha::~Pilha(){
 }
 void Pilha::empilha(int dado){
     Noh *novoNoh = new Noh(dado);
-    novoNoh->mProximo = mTopo;
+    novoNoh->mProximo = mTopo; 
     mTopo = novoNoh;
     mTamanho++;  // Incrementa o tamanho da pilha após empilhar um novo elemento.
 }
