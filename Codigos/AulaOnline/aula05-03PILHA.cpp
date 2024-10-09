@@ -14,6 +14,7 @@ class Noh{
 Noh::Noh(int valor){
     mValor = valor;
     mProximo = NULL;
+
 }
 
 class Pilha{
