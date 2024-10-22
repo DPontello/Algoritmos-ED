@@ -1,0 +1,1181 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17" pages="33">
+  <diagram name="Etapa1" id="n1dyaHdamtLZoVtb6WvT">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="U7ItN2jRiqImWAIPR07_-2" value="VAR1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="70" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U7ItN2jRiqImWAIPR07_-3" value="VAR2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="70" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U7ItN2jRiqImWAIPR07_-4" value="PILHA1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="70" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U7ItN2jRiqImWAIPR07_-5" value="PILHA2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="70" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U7ItN2jRiqImWAIPR07_-9" value="Resultante" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="30" y="360" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U7ItN2jRiqImWAIPR07_-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U7ItN2jRiqImWAIPR07_-13" value="&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot; id=&quot;yui_3_17_2_1_1728615129868_1770&quot;&gt;Dada a seguinte pilha:&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;topo -&amp;gt; 6 -&amp;gt; 8 -&amp;gt; 2 -&amp;gt; 9&amp;nbsp;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="60" y="75" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QahuOkzpzELE_0canIWx-1" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Ordene os seus elementos de forma decrescente&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(maior elemento na base e menor elemento no topo)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="300" y="70" width="440" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Etapa1.1" id="oWIc0HfHhQOGiQnY-L8O">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="LRj-6KpfGbrjk96I7aUi-0" />
+        <mxCell id="LRj-6KpfGbrjk96I7aUi-1" parent="LRj-6KpfGbrjk96I7aUi-0" />
+        <mxCell id="LRj-6KpfGbrjk96I7aUi-2" value="VAR1: 6" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="LRj-6KpfGbrjk96I7aUi-1">
+          <mxGeometry x="70" y="170" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LRj-6KpfGbrjk96I7aUi-3" value="VAR2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="LRj-6KpfGbrjk96I7aUi-1">
+          <mxGeometry x="70" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LRj-6KpfGbrjk96I7aUi-4" value="PILHA1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="LRj-6KpfGbrjk96I7aUi-1">
+          <mxGeometry x="70" y="260" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LRj-6KpfGbrjk96I7aUi-5" value="PILHA2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="LRj-6KpfGbrjk96I7aUi-1">
+          <mxGeometry x="70" y="310" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LRj-6KpfGbrjk96I7aUi-7" value="Resultante" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="LRj-6KpfGbrjk96I7aUi-1">
+          <mxGeometry x="30" y="360" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LRj-6KpfGbrjk96I7aUi-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LRj-6KpfGbrjk96I7aUi-1">
+          <mxGeometry x="40" y="60" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LRj-6KpfGbrjk96I7aUi-9" value="&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot; id=&quot;yui_3_17_2_1_1728615129868_1770&quot;&gt;Dada a seguinte pilha:&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;topo -&amp;gt; 8 -&amp;gt; 2 -&amp;gt; 9&amp;nbsp;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="LRj-6KpfGbrjk96I7aUi-1">
+          <mxGeometry x="60" y="75" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wRVKLcSt6OPLXuH8wt5R-0" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Ordene os seus elementos de forma decrescente&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(maior elemento na base e menor elemento no topo)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="LRj-6KpfGbrjk96I7aUi-1">
+          <mxGeometry x="300" y="70" width="440" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Etapa1.2" id="DJ4VVQ8kItgIoDM1zM9T">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="pZ_oo8TGSIpdzKutP4Ol-0" />
+        <mxCell id="pZ_oo8TGSIpdzKutP4Ol-1" parent="pZ_oo8TGSIpdzKutP4Ol-0" />
+        <mxCell id="pZ_oo8TGSIpdzKutP4Ol-2" value="VAR1: 6" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="pZ_oo8TGSIpdzKutP4Ol-1">
+          <mxGeometry x="70" y="170" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ_oo8TGSIpdzKutP4Ol-3" value="VAR2: 8" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="pZ_oo8TGSIpdzKutP4Ol-1">
+          <mxGeometry x="70" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ_oo8TGSIpdzKutP4Ol-4" value="PILHA1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="pZ_oo8TGSIpdzKutP4Ol-1">
+          <mxGeometry x="70" y="260" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ_oo8TGSIpdzKutP4Ol-5" value="PILHA2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="pZ_oo8TGSIpdzKutP4Ol-1">
+          <mxGeometry x="70" y="310" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ_oo8TGSIpdzKutP4Ol-7" value="Resultante" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="pZ_oo8TGSIpdzKutP4Ol-1">
+          <mxGeometry x="30" y="360" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ_oo8TGSIpdzKutP4Ol-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pZ_oo8TGSIpdzKutP4Ol-1">
+          <mxGeometry x="40" y="60" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ_oo8TGSIpdzKutP4Ol-9" value="&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot; id=&quot;yui_3_17_2_1_1728615129868_1770&quot;&gt;Dada a seguinte pilha:&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;topo -&amp;gt; 2 -&amp;gt; 9&amp;nbsp;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="pZ_oo8TGSIpdzKutP4Ol-1">
+          <mxGeometry x="60" y="75" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GKZl6UEwr0vxIYOEdE-9-0" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Ordene os seus elementos de forma decrescente&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(maior elemento na base e menor elemento no topo)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="pZ_oo8TGSIpdzKutP4Ol-1">
+          <mxGeometry x="300" y="70" width="440" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Etapa1.3" id="UBMT3o9gVc7LK4lzhdlb">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="ndLV0ol3G-8UFQO7jeux-0" />
+        <mxCell id="ndLV0ol3G-8UFQO7jeux-1" parent="ndLV0ol3G-8UFQO7jeux-0" />
+        <mxCell id="ndLV0ol3G-8UFQO7jeux-2" value="VAR1: 6" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="ndLV0ol3G-8UFQO7jeux-1">
+          <mxGeometry x="70" y="170" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ndLV0ol3G-8UFQO7jeux-3" value="VAR2: 8" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="ndLV0ol3G-8UFQO7jeux-1">
+          <mxGeometry x="70" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ndLV0ol3G-8UFQO7jeux-4" value="PILHA1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="ndLV0ol3G-8UFQO7jeux-1">
+          <mxGeometry x="70" y="260" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ndLV0ol3G-8UFQO7jeux-5" value="PILHA2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="ndLV0ol3G-8UFQO7jeux-1">
+          <mxGeometry x="65" y="310" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ndLV0ol3G-8UFQO7jeux-7" value="Resultante" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="ndLV0ol3G-8UFQO7jeux-1">
+          <mxGeometry x="30" y="360" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ndLV0ol3G-8UFQO7jeux-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ndLV0ol3G-8UFQO7jeux-1">
+          <mxGeometry x="40" y="60" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ndLV0ol3G-8UFQO7jeux-9" value="&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot; id=&quot;yui_3_17_2_1_1728615129868_1770&quot;&gt;Dada a seguinte pilha:&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;topo -&amp;gt; 2 -&amp;gt; 9&amp;nbsp;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="ndLV0ol3G-8UFQO7jeux-1">
+          <mxGeometry x="60" y="75" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XmsJj4Itbs0HtE_a2NQr-0" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ndLV0ol3G-8UFQO7jeux-1">
+          <mxGeometry x="330" y="220" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XmsJj4Itbs0HtE_a2NQr-1" value="VAR1 &amp;lt; VAR2 ?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="ndLV0ol3G-8UFQO7jeux-1">
+          <mxGeometry x="342.5" y="235" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="THizCqdZllxeD7MlSoa--0" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Ordene os seus elementos de forma decrescente&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(maior elemento na base e menor elemento no topo)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="ndLV0ol3G-8UFQO7jeux-1">
+          <mxGeometry x="300" y="70" width="440" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Etapa1.4" id="aLo3JfOa8snKQOXCTJhS">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="-qf_HQfR81mYP4Wqzk6L-0" />
+        <mxCell id="-qf_HQfR81mYP4Wqzk6L-1" parent="-qf_HQfR81mYP4Wqzk6L-0" />
+        <mxCell id="-qf_HQfR81mYP4Wqzk6L-2" value="VAR1:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="-qf_HQfR81mYP4Wqzk6L-1">
+          <mxGeometry x="70" y="170" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-qf_HQfR81mYP4Wqzk6L-3" value="VAR2: 8" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="-qf_HQfR81mYP4Wqzk6L-1">
+          <mxGeometry x="70" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-qf_HQfR81mYP4Wqzk6L-4" value="PILHA1:&lt;div&gt;topo -&amp;gt; 6&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="-qf_HQfR81mYP4Wqzk6L-1">
+          <mxGeometry x="70" y="260" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-qf_HQfR81mYP4Wqzk6L-5" value="PILHA2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="-qf_HQfR81mYP4Wqzk6L-1">
+          <mxGeometry x="65" y="310" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-qf_HQfR81mYP4Wqzk6L-7" value="Resultante" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="-qf_HQfR81mYP4Wqzk6L-1">
+          <mxGeometry x="30" y="360" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-qf_HQfR81mYP4Wqzk6L-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-qf_HQfR81mYP4Wqzk6L-1">
+          <mxGeometry x="40" y="60" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-qf_HQfR81mYP4Wqzk6L-9" value="&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot; id=&quot;yui_3_17_2_1_1728615129868_1770&quot;&gt;Dada a seguinte pilha:&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;topo -&amp;gt; 2 -&amp;gt; 9&amp;nbsp;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="-qf_HQfR81mYP4Wqzk6L-1">
+          <mxGeometry x="60" y="75" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DkrRH6LRDq3veRkOZPxb-0" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Ordene os seus elementos de forma decrescente&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(maior elemento na base e menor elemento no topo)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="-qf_HQfR81mYP4Wqzk6L-1">
+          <mxGeometry x="300" y="70" width="440" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Etapa1.4" id="hp-n2n394DQSBwqGgO0s">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="W38ZIR0JKpyx6pHfJ3gi-0" />
+        <mxCell id="W38ZIR0JKpyx6pHfJ3gi-1" parent="W38ZIR0JKpyx6pHfJ3gi-0" />
+        <mxCell id="W38ZIR0JKpyx6pHfJ3gi-2" value="VAR1: 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="W38ZIR0JKpyx6pHfJ3gi-1">
+          <mxGeometry x="70" y="170" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W38ZIR0JKpyx6pHfJ3gi-3" value="VAR2: 8" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="W38ZIR0JKpyx6pHfJ3gi-1">
+          <mxGeometry x="70" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W38ZIR0JKpyx6pHfJ3gi-4" value="PILHA1:&lt;div&gt;topo -&amp;gt; 6&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="W38ZIR0JKpyx6pHfJ3gi-1">
+          <mxGeometry x="70" y="260" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W38ZIR0JKpyx6pHfJ3gi-5" value="PILHA2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="W38ZIR0JKpyx6pHfJ3gi-1">
+          <mxGeometry x="65" y="310" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W38ZIR0JKpyx6pHfJ3gi-7" value="Resultante" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="W38ZIR0JKpyx6pHfJ3gi-1">
+          <mxGeometry x="30" y="360" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W38ZIR0JKpyx6pHfJ3gi-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="W38ZIR0JKpyx6pHfJ3gi-1">
+          <mxGeometry x="40" y="60" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W38ZIR0JKpyx6pHfJ3gi-9" value="&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot; id=&quot;yui_3_17_2_1_1728615129868_1770&quot;&gt;Dada a seguinte pilha:&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;topo -&amp;gt; 9&amp;nbsp;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="W38ZIR0JKpyx6pHfJ3gi-1">
+          <mxGeometry x="60" y="75" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-I3dEsVR9x_io1xXDeTK-0" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Ordene os seus elementos de forma decrescente&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(maior elemento na base e menor elemento no topo)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="W38ZIR0JKpyx6pHfJ3gi-1">
+          <mxGeometry x="300" y="70" width="440" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Etapa1.5" id="Dse1Mi8rvSq7LJ6WDRzc">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Cnb5G5qjlpKaVDtTvyb5-0" />
+        <mxCell id="Cnb5G5qjlpKaVDtTvyb5-1" parent="Cnb5G5qjlpKaVDtTvyb5-0" />
+        <mxCell id="Cnb5G5qjlpKaVDtTvyb5-2" value="VAR1: 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="Cnb5G5qjlpKaVDtTvyb5-1">
+          <mxGeometry x="70" y="170" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cnb5G5qjlpKaVDtTvyb5-3" value="VAR2: 8" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="Cnb5G5qjlpKaVDtTvyb5-1">
+          <mxGeometry x="70" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cnb5G5qjlpKaVDtTvyb5-4" value="PILHA1:&lt;div&gt;topo -&amp;gt; 6&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="Cnb5G5qjlpKaVDtTvyb5-1">
+          <mxGeometry x="70" y="260" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cnb5G5qjlpKaVDtTvyb5-5" value="PILHA2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="Cnb5G5qjlpKaVDtTvyb5-1">
+          <mxGeometry x="65" y="310" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cnb5G5qjlpKaVDtTvyb5-7" value="Resultante" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="Cnb5G5qjlpKaVDtTvyb5-1">
+          <mxGeometry x="30" y="360" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cnb5G5qjlpKaVDtTvyb5-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Cnb5G5qjlpKaVDtTvyb5-1">
+          <mxGeometry x="40" y="60" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cnb5G5qjlpKaVDtTvyb5-9" value="&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot; id=&quot;yui_3_17_2_1_1728615129868_1770&quot;&gt;Dada a seguinte pilha:&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;topo -&amp;gt; 9&amp;nbsp;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="Cnb5G5qjlpKaVDtTvyb5-1">
+          <mxGeometry x="60" y="75" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mE630QIBOiwWVm-AerSL-0" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Cnb5G5qjlpKaVDtTvyb5-1">
+          <mxGeometry x="330" y="220" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mE630QIBOiwWVm-AerSL-1" value="VAR1 &amp;lt; VAR2 ?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="Cnb5G5qjlpKaVDtTvyb5-1">
+          <mxGeometry x="342.5" y="235" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jB0GwqaoKz9Pn9aD7sPm-0" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Ordene os seus elementos de forma decrescente&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(maior elemento na base e menor elemento no topo)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="Cnb5G5qjlpKaVDtTvyb5-1">
+          <mxGeometry x="300" y="70" width="440" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Etapa1.6" id="-SoNniS_5fgjERfPRuDg">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="GCke6BYNtzR2vwxaIGb_-0" />
+        <mxCell id="GCke6BYNtzR2vwxaIGb_-1" parent="GCke6BYNtzR2vwxaIGb_-0" />
+        <mxCell id="GCke6BYNtzR2vwxaIGb_-2" value="VAR1:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="GCke6BYNtzR2vwxaIGb_-1">
+          <mxGeometry x="71" y="169" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GCke6BYNtzR2vwxaIGb_-3" value="VAR2: 8" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="GCke6BYNtzR2vwxaIGb_-1">
+          <mxGeometry x="70" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GCke6BYNtzR2vwxaIGb_-4" value="PILHA1:&lt;div&gt;topo -&amp;gt; 2 -&amp;gt; 6&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="GCke6BYNtzR2vwxaIGb_-1">
+          <mxGeometry x="16" y="260" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GCke6BYNtzR2vwxaIGb_-5" value="PILHA2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="GCke6BYNtzR2vwxaIGb_-1">
+          <mxGeometry x="60" y="330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GCke6BYNtzR2vwxaIGb_-7" value="Resultante" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="GCke6BYNtzR2vwxaIGb_-1">
+          <mxGeometry x="30" y="400" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GCke6BYNtzR2vwxaIGb_-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GCke6BYNtzR2vwxaIGb_-1">
+          <mxGeometry x="40" y="60" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GCke6BYNtzR2vwxaIGb_-9" value="&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot; id=&quot;yui_3_17_2_1_1728615129868_1770&quot;&gt;Dada a seguinte pilha:&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;topo -&amp;gt; 9&amp;nbsp;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="GCke6BYNtzR2vwxaIGb_-1">
+          <mxGeometry x="60" y="75" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="syLprG5a4xeLExjnIHvK-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="GCke6BYNtzR2vwxaIGb_-1" source="GCke6BYNtzR2vwxaIGb_-2" target="GCke6BYNtzR2vwxaIGb_-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lWbT36RSraEQSg5YTMf8-0" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Ordene os seus elementos de forma decrescente&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(maior elemento na base e menor elemento no topo)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="GCke6BYNtzR2vwxaIGb_-1">
+          <mxGeometry x="300" y="70" width="440" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Etapa1.7" id="GcCsx73PY3p_FACGiklg">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="nu_KHgcyx3O0cRoBT5zf-0" />
+        <mxCell id="nu_KHgcyx3O0cRoBT5zf-1" parent="nu_KHgcyx3O0cRoBT5zf-0" />
+        <mxCell id="nu_KHgcyx3O0cRoBT5zf-2" value="VAR1: 9" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="nu_KHgcyx3O0cRoBT5zf-1">
+          <mxGeometry x="71" y="169" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nu_KHgcyx3O0cRoBT5zf-3" value="VAR2: 8" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="nu_KHgcyx3O0cRoBT5zf-1">
+          <mxGeometry x="70" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nu_KHgcyx3O0cRoBT5zf-5" value="PILHA2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="nu_KHgcyx3O0cRoBT5zf-1">
+          <mxGeometry x="60" y="330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nu_KHgcyx3O0cRoBT5zf-7" value="Resultante" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="nu_KHgcyx3O0cRoBT5zf-1">
+          <mxGeometry x="30" y="400" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nu_KHgcyx3O0cRoBT5zf-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nu_KHgcyx3O0cRoBT5zf-1">
+          <mxGeometry x="40" y="60" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nu_KHgcyx3O0cRoBT5zf-9" value="&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot; id=&quot;yui_3_17_2_1_1728615129868_1770&quot;&gt;Dada a seguinte pilha:&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;topo&amp;nbsp;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="nu_KHgcyx3O0cRoBT5zf-1">
+          <mxGeometry x="60" y="75" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nu_KHgcyx3O0cRoBT5zf-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="nu_KHgcyx3O0cRoBT5zf-1" source="nu_KHgcyx3O0cRoBT5zf-2" target="nu_KHgcyx3O0cRoBT5zf-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MQwWr_WQY8epxfA0HF3I-1" value="PILHA1:&lt;div&gt;topo -&amp;gt; 2 -&amp;gt; 6&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="nu_KHgcyx3O0cRoBT5zf-1">
+          <mxGeometry x="26" y="270" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xEVhBzzxBCPfO_MJ1iCs-0" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Ordene os seus elementos de forma decrescente&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(maior elemento na base e menor elemento no topo)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="nu_KHgcyx3O0cRoBT5zf-1">
+          <mxGeometry x="300" y="70" width="440" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Etapa1.8" id="3HeTt1vSZPivHhQEx_PJ">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="z4tKxcq3X9yJCcN3f3mI-0" />
+        <mxCell id="z4tKxcq3X9yJCcN3f3mI-1" parent="z4tKxcq3X9yJCcN3f3mI-0" />
+        <mxCell id="z4tKxcq3X9yJCcN3f3mI-2" value="VAR1: 9" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="z4tKxcq3X9yJCcN3f3mI-1">
+          <mxGeometry x="71" y="169" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z4tKxcq3X9yJCcN3f3mI-3" value="VAR2: 8" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="z4tKxcq3X9yJCcN3f3mI-1">
+          <mxGeometry x="70" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z4tKxcq3X9yJCcN3f3mI-5" value="PILHA2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="z4tKxcq3X9yJCcN3f3mI-1">
+          <mxGeometry x="60" y="330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z4tKxcq3X9yJCcN3f3mI-7" value="Resultante" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="z4tKxcq3X9yJCcN3f3mI-1">
+          <mxGeometry x="30" y="400" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z4tKxcq3X9yJCcN3f3mI-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="z4tKxcq3X9yJCcN3f3mI-1">
+          <mxGeometry x="40" y="60" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z4tKxcq3X9yJCcN3f3mI-9" value="&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot; id=&quot;yui_3_17_2_1_1728615129868_1770&quot;&gt;Dada a seguinte pilha:&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;topo&amp;nbsp;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="z4tKxcq3X9yJCcN3f3mI-1">
+          <mxGeometry x="60" y="75" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z4tKxcq3X9yJCcN3f3mI-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="z4tKxcq3X9yJCcN3f3mI-1" source="z4tKxcq3X9yJCcN3f3mI-2" target="z4tKxcq3X9yJCcN3f3mI-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wOtUnFp-e6nM8aL2NDN_-0" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="z4tKxcq3X9yJCcN3f3mI-1">
+          <mxGeometry x="330" y="220" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wOtUnFp-e6nM8aL2NDN_-1" value="VAR1 &amp;lt; VAR2 ?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="z4tKxcq3X9yJCcN3f3mI-1">
+          <mxGeometry x="342.5" y="235" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W2osM6pOMHHbRBsZLTfn-0" value="PILHA1:&lt;div&gt;topo -&amp;gt; 2 -&amp;gt; 6&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="z4tKxcq3X9yJCcN3f3mI-1">
+          <mxGeometry x="16" y="265" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mEnoZieKFExmMIFjdvZ9-0" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Ordene os seus elementos de forma decrescente&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(maior elemento na base e menor elemento no topo)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="z4tKxcq3X9yJCcN3f3mI-1">
+          <mxGeometry x="300" y="70" width="440" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Etapa1.9" id="e5XKmkRBC4HQ-nlIk0ZR">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="BVRSXSahIAOgqrJ12vhG-0" />
+        <mxCell id="BVRSXSahIAOgqrJ12vhG-1" parent="BVRSXSahIAOgqrJ12vhG-0" />
+        <mxCell id="BVRSXSahIAOgqrJ12vhG-2" value="VAR1: 9" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="BVRSXSahIAOgqrJ12vhG-1">
+          <mxGeometry x="71" y="169" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BVRSXSahIAOgqrJ12vhG-3" value="VAR2:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="BVRSXSahIAOgqrJ12vhG-1">
+          <mxGeometry x="70" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BVRSXSahIAOgqrJ12vhG-5" value="PILHA2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="BVRSXSahIAOgqrJ12vhG-1">
+          <mxGeometry x="60" y="330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BVRSXSahIAOgqrJ12vhG-7" value="Resultante:&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="BVRSXSahIAOgqrJ12vhG-1">
+          <mxGeometry x="30" y="400" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BVRSXSahIAOgqrJ12vhG-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BVRSXSahIAOgqrJ12vhG-1">
+          <mxGeometry x="40" y="60" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BVRSXSahIAOgqrJ12vhG-9" value="&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot; id=&quot;yui_3_17_2_1_1728615129868_1770&quot;&gt;Dada a seguinte pilha:&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;topo&amp;nbsp;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="BVRSXSahIAOgqrJ12vhG-1">
+          <mxGeometry x="60" y="75" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BVRSXSahIAOgqrJ12vhG-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="BVRSXSahIAOgqrJ12vhG-1" source="BVRSXSahIAOgqrJ12vhG-2" target="BVRSXSahIAOgqrJ12vhG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VVcAI4EP3Fl0VqEdoWQS-0" value="PILHA1:&lt;div&gt;topo -&amp;gt;8 -&amp;gt; 2 -&amp;gt; 6&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="BVRSXSahIAOgqrJ12vhG-1">
+          <mxGeometry x="16" y="270" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8CTyi3WcYz0vOdQvwKGG-0" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Ordene os seus elementos de forma decrescente&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(maior elemento na base e menor elemento no topo)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="BVRSXSahIAOgqrJ12vhG-1">
+          <mxGeometry x="300" y="70" width="440" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Etapa1.92" id="FkCDwvo_iIegV1W9_7kZ">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Ya0e82iyiN5kkMpBT3CH-0" />
+        <mxCell id="Ya0e82iyiN5kkMpBT3CH-1" parent="Ya0e82iyiN5kkMpBT3CH-0" />
+        <mxCell id="Ya0e82iyiN5kkMpBT3CH-2" value="VAR1:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="Ya0e82iyiN5kkMpBT3CH-1">
+          <mxGeometry x="71" y="169" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ya0e82iyiN5kkMpBT3CH-3" value="VAR2:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="Ya0e82iyiN5kkMpBT3CH-1">
+          <mxGeometry x="70" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ya0e82iyiN5kkMpBT3CH-4" value="PILHA2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="Ya0e82iyiN5kkMpBT3CH-1">
+          <mxGeometry x="60" y="330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ya0e82iyiN5kkMpBT3CH-6" value="Resultante:&lt;div&gt;topo -&amp;gt; 9&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="Ya0e82iyiN5kkMpBT3CH-1">
+          <mxGeometry x="30" y="400" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ya0e82iyiN5kkMpBT3CH-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ya0e82iyiN5kkMpBT3CH-1">
+          <mxGeometry x="40" y="60" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ya0e82iyiN5kkMpBT3CH-8" value="&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot; id=&quot;yui_3_17_2_1_1728615129868_1770&quot;&gt;Dada a seguinte pilha:&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;topo&amp;nbsp;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="Ya0e82iyiN5kkMpBT3CH-1">
+          <mxGeometry x="60" y="75" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ya0e82iyiN5kkMpBT3CH-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Ya0e82iyiN5kkMpBT3CH-1" source="Ya0e82iyiN5kkMpBT3CH-2" target="Ya0e82iyiN5kkMpBT3CH-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ya0e82iyiN5kkMpBT3CH-10" value="PILHA1:&lt;div&gt;topo -&amp;gt;8 -&amp;gt; 2 -&amp;gt; 6&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="Ya0e82iyiN5kkMpBT3CH-1">
+          <mxGeometry x="16" y="270" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kGJNAJtbWOp_iHDJCQ4C-0" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Ordene os seus elementos de forma decrescente&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(maior elemento na base e menor elemento no topo)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="Ya0e82iyiN5kkMpBT3CH-1">
+          <mxGeometry x="300" y="70" width="440" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Etapa2" id="BeF6KckjqYxRnue6wq81">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="e45J8ryckSTQtYoC1ZEw-0" />
+        <mxCell id="e45J8ryckSTQtYoC1ZEw-1" parent="e45J8ryckSTQtYoC1ZEw-0" />
+        <mxCell id="e45J8ryckSTQtYoC1ZEw-2" value="VAR1:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="e45J8ryckSTQtYoC1ZEw-1">
+          <mxGeometry x="71" y="169" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e45J8ryckSTQtYoC1ZEw-3" value="VAR2:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="e45J8ryckSTQtYoC1ZEw-1">
+          <mxGeometry x="70" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e45J8ryckSTQtYoC1ZEw-4" value="PILHA2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="e45J8ryckSTQtYoC1ZEw-1">
+          <mxGeometry x="60" y="330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e45J8ryckSTQtYoC1ZEw-6" value="Resultante:&lt;div&gt;topo -&amp;gt; 9&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="e45J8ryckSTQtYoC1ZEw-1">
+          <mxGeometry x="30" y="400" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e45J8ryckSTQtYoC1ZEw-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="e45J8ryckSTQtYoC1ZEw-1">
+          <mxGeometry x="40" y="60" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e45J8ryckSTQtYoC1ZEw-8" value="&lt;p id=&quot;yui_3_17_2_1_1728615129868_1770&quot; style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Dada a seguinte pilha:&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;topo&amp;nbsp;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;" vertex="1" parent="e45J8ryckSTQtYoC1ZEw-1">
+          <mxGeometry x="60" y="75" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e45J8ryckSTQtYoC1ZEw-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="e45J8ryckSTQtYoC1ZEw-1" source="e45J8ryckSTQtYoC1ZEw-2" target="e45J8ryckSTQtYoC1ZEw-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e45J8ryckSTQtYoC1ZEw-10" value="PILHA1:&lt;div&gt;topo -&amp;gt;8 -&amp;gt; 2 -&amp;gt; 6&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="e45J8ryckSTQtYoC1ZEw-1">
+          <mxGeometry x="16" y="270" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9qWMoyOqBT6auHCStfFH-0" value="COPY" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=15;" vertex="1" parent="e45J8ryckSTQtYoC1ZEw-1">
+          <mxGeometry x="334" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VuSLG5YwrD52agRNUknb-0" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Ordene os seus elementos de forma decrescente&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(maior elemento na base e menor elemento no topo)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="e45J8ryckSTQtYoC1ZEw-1">
+          <mxGeometry x="300" y="70" width="440" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="etapa2.0" id="ghorqHljkpCcA1iuJgfp">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="HPxdlLu1lVt9Ds1Y6-OP-0" />
+        <mxCell id="HPxdlLu1lVt9Ds1Y6-OP-1" parent="HPxdlLu1lVt9Ds1Y6-OP-0" />
+        <mxCell id="HPxdlLu1lVt9Ds1Y6-OP-2" value="VAR1:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="HPxdlLu1lVt9Ds1Y6-OP-1">
+          <mxGeometry x="71" y="169" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HPxdlLu1lVt9Ds1Y6-OP-3" value="VAR2:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="HPxdlLu1lVt9Ds1Y6-OP-1">
+          <mxGeometry x="70" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HPxdlLu1lVt9Ds1Y6-OP-4" value="PILHA2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="HPxdlLu1lVt9Ds1Y6-OP-1">
+          <mxGeometry x="60" y="330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HPxdlLu1lVt9Ds1Y6-OP-6" value="Resultante:&lt;div&gt;topo -&amp;gt; 9&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="HPxdlLu1lVt9Ds1Y6-OP-1">
+          <mxGeometry x="30" y="400" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HPxdlLu1lVt9Ds1Y6-OP-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="HPxdlLu1lVt9Ds1Y6-OP-1">
+          <mxGeometry x="40" y="60" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HPxdlLu1lVt9Ds1Y6-OP-8" value="&lt;p id=&quot;yui_3_17_2_1_1728615129868_1770&quot; style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Dada a seguinte pilha:&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;topo -&amp;gt;8 -&amp;gt;2 -&amp;gt;6&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;" vertex="1" parent="HPxdlLu1lVt9Ds1Y6-OP-1">
+          <mxGeometry x="60" y="75" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HPxdlLu1lVt9Ds1Y6-OP-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="HPxdlLu1lVt9Ds1Y6-OP-1" source="HPxdlLu1lVt9Ds1Y6-OP-2" target="HPxdlLu1lVt9Ds1Y6-OP-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HPxdlLu1lVt9Ds1Y6-OP-10" value="PILHA1:&lt;div&gt;topo&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="HPxdlLu1lVt9Ds1Y6-OP-1">
+          <mxGeometry x="16" y="270" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E1zqNzQaeyHfFsYXOfEV-0" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Ordene os seus elementos de forma decrescente&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(maior elemento na base e menor elemento no topo)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="HPxdlLu1lVt9Ds1Y6-OP-1">
+          <mxGeometry x="300" y="70" width="440" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="etapa2.1" id="Mwn2YHNjo_z5sIU0WXPl">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="en7c2dGs-pAKLu11xACt-0" />
+        <mxCell id="en7c2dGs-pAKLu11xACt-1" parent="en7c2dGs-pAKLu11xACt-0" />
+        <mxCell id="en7c2dGs-pAKLu11xACt-2" value="VAR1: 8" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="en7c2dGs-pAKLu11xACt-1">
+          <mxGeometry x="71" y="169" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="en7c2dGs-pAKLu11xACt-3" value="VAR2:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="en7c2dGs-pAKLu11xACt-1">
+          <mxGeometry x="70" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="en7c2dGs-pAKLu11xACt-4" value="PILHA2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="en7c2dGs-pAKLu11xACt-1">
+          <mxGeometry x="60" y="330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="en7c2dGs-pAKLu11xACt-6" value="Resultante:&lt;div&gt;topo -&amp;gt; 9&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="en7c2dGs-pAKLu11xACt-1">
+          <mxGeometry x="30" y="400" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="en7c2dGs-pAKLu11xACt-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="en7c2dGs-pAKLu11xACt-1">
+          <mxGeometry x="40" y="60" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="en7c2dGs-pAKLu11xACt-8" value="&lt;p id=&quot;yui_3_17_2_1_1728615129868_1770&quot; style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Dada a seguinte pilha:&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;topo -&amp;gt;2 -&amp;gt;6&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;" vertex="1" parent="en7c2dGs-pAKLu11xACt-1">
+          <mxGeometry x="60" y="75" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="en7c2dGs-pAKLu11xACt-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="en7c2dGs-pAKLu11xACt-1" source="en7c2dGs-pAKLu11xACt-2" target="en7c2dGs-pAKLu11xACt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="en7c2dGs-pAKLu11xACt-10" value="PILHA1:&lt;div&gt;topo&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="en7c2dGs-pAKLu11xACt-1">
+          <mxGeometry x="16" y="270" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yRtZMPw-JfehWPz--prN-0" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Ordene os seus elementos de forma decrescente&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(maior elemento na base e menor elemento no topo)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="en7c2dGs-pAKLu11xACt-1">
+          <mxGeometry x="300" y="70" width="440" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="etapa2.2" id="3vjEfZn3_Sbk-sbFbOoh">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="kRK3ha4YjPp8Lr5RiDhD-0" />
+        <mxCell id="kRK3ha4YjPp8Lr5RiDhD-1" parent="kRK3ha4YjPp8Lr5RiDhD-0" />
+        <mxCell id="kRK3ha4YjPp8Lr5RiDhD-2" value="VAR1: 8" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="kRK3ha4YjPp8Lr5RiDhD-1">
+          <mxGeometry x="71" y="169" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kRK3ha4YjPp8Lr5RiDhD-3" value="VAR2: 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="kRK3ha4YjPp8Lr5RiDhD-1">
+          <mxGeometry x="70" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kRK3ha4YjPp8Lr5RiDhD-4" value="PILHA2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="kRK3ha4YjPp8Lr5RiDhD-1">
+          <mxGeometry x="60" y="330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kRK3ha4YjPp8Lr5RiDhD-6" value="Resultante:&lt;div&gt;topo -&amp;gt; 9&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="kRK3ha4YjPp8Lr5RiDhD-1">
+          <mxGeometry x="30" y="400" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kRK3ha4YjPp8Lr5RiDhD-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="kRK3ha4YjPp8Lr5RiDhD-1">
+          <mxGeometry x="40" y="60" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kRK3ha4YjPp8Lr5RiDhD-8" value="&lt;p id=&quot;yui_3_17_2_1_1728615129868_1770&quot; style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Dada a seguinte pilha:&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;topo -&amp;gt;6&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;" vertex="1" parent="kRK3ha4YjPp8Lr5RiDhD-1">
+          <mxGeometry x="60" y="75" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kRK3ha4YjPp8Lr5RiDhD-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="kRK3ha4YjPp8Lr5RiDhD-1" source="kRK3ha4YjPp8Lr5RiDhD-2" target="kRK3ha4YjPp8Lr5RiDhD-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kRK3ha4YjPp8Lr5RiDhD-10" value="PILHA1:&lt;div&gt;topo&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="kRK3ha4YjPp8Lr5RiDhD-1">
+          <mxGeometry x="16" y="270" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kttBMOG02f5U2efe4WwZ-0" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Ordene os seus elementos de forma decrescente&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(maior elemento na base e menor elemento no topo)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="kRK3ha4YjPp8Lr5RiDhD-1">
+          <mxGeometry x="300" y="70" width="440" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="etapa2.3" id="6NPx0MUEru4du_n1VetU">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="p4nGqFF_3XWcrVRuFpQT-0" />
+        <mxCell id="p4nGqFF_3XWcrVRuFpQT-1" parent="p4nGqFF_3XWcrVRuFpQT-0" />
+        <mxCell id="p4nGqFF_3XWcrVRuFpQT-2" value="VAR1: 8" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="p4nGqFF_3XWcrVRuFpQT-1">
+          <mxGeometry x="71" y="169" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p4nGqFF_3XWcrVRuFpQT-3" value="VAR2: 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="p4nGqFF_3XWcrVRuFpQT-1">
+          <mxGeometry x="70" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p4nGqFF_3XWcrVRuFpQT-4" value="PILHA2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="p4nGqFF_3XWcrVRuFpQT-1">
+          <mxGeometry x="60" y="330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p4nGqFF_3XWcrVRuFpQT-6" value="Resultante:&lt;div&gt;topo -&amp;gt; 9&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="p4nGqFF_3XWcrVRuFpQT-1">
+          <mxGeometry x="30" y="400" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p4nGqFF_3XWcrVRuFpQT-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="p4nGqFF_3XWcrVRuFpQT-1">
+          <mxGeometry x="40" y="60" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p4nGqFF_3XWcrVRuFpQT-8" value="&lt;p id=&quot;yui_3_17_2_1_1728615129868_1770&quot; style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Dada a seguinte pilha:&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;topo -&amp;gt;6&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;" vertex="1" parent="p4nGqFF_3XWcrVRuFpQT-1">
+          <mxGeometry x="60" y="75" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p4nGqFF_3XWcrVRuFpQT-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="p4nGqFF_3XWcrVRuFpQT-1" source="p4nGqFF_3XWcrVRuFpQT-2" target="p4nGqFF_3XWcrVRuFpQT-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p4nGqFF_3XWcrVRuFpQT-10" value="PILHA1:&lt;div&gt;topo&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="p4nGqFF_3XWcrVRuFpQT-1">
+          <mxGeometry x="16" y="270" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jhXhQQNa7ZfYOLwlYFO2-0" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="p4nGqFF_3XWcrVRuFpQT-1">
+          <mxGeometry x="310" y="199" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jhXhQQNa7ZfYOLwlYFO2-1" value="VAR1 &amp;lt; VAR2 ?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="p4nGqFF_3XWcrVRuFpQT-1">
+          <mxGeometry x="322.5" y="214" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VbWhoMYEKLEwRsUS5VRq-0" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Ordene os seus elementos de forma decrescente&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(maior elemento na base e menor elemento no topo)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="p4nGqFF_3XWcrVRuFpQT-1">
+          <mxGeometry x="300" y="70" width="440" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="etapa2.4" id="CeaPjRii7TPa5OSKCA08">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="KtkSw3kdoLkvy1anWyKO-0" />
+        <mxCell id="KtkSw3kdoLkvy1anWyKO-1" parent="KtkSw3kdoLkvy1anWyKO-0" />
+        <mxCell id="KtkSw3kdoLkvy1anWyKO-2" value="VAR1: 8" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="KtkSw3kdoLkvy1anWyKO-1">
+          <mxGeometry x="71" y="169" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KtkSw3kdoLkvy1anWyKO-3" value="VAR2:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="KtkSw3kdoLkvy1anWyKO-1">
+          <mxGeometry x="70" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KtkSw3kdoLkvy1anWyKO-4" value="PILHA2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="KtkSw3kdoLkvy1anWyKO-1">
+          <mxGeometry x="60" y="330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KtkSw3kdoLkvy1anWyKO-6" value="Resultante:&lt;div&gt;topo -&amp;gt; 9&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="KtkSw3kdoLkvy1anWyKO-1">
+          <mxGeometry x="30" y="400" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KtkSw3kdoLkvy1anWyKO-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KtkSw3kdoLkvy1anWyKO-1">
+          <mxGeometry x="40" y="60" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KtkSw3kdoLkvy1anWyKO-8" value="&lt;p id=&quot;yui_3_17_2_1_1728615129868_1770&quot; style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Dada a seguinte pilha:&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;topo -&amp;gt;6&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;" vertex="1" parent="KtkSw3kdoLkvy1anWyKO-1">
+          <mxGeometry x="60" y="75" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KtkSw3kdoLkvy1anWyKO-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="KtkSw3kdoLkvy1anWyKO-1" source="KtkSw3kdoLkvy1anWyKO-2" target="KtkSw3kdoLkvy1anWyKO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KtkSw3kdoLkvy1anWyKO-10" value="PILHA1:&lt;div&gt;topo -&amp;gt; 2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="KtkSw3kdoLkvy1anWyKO-1">
+          <mxGeometry x="16" y="270" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ibL0-0SS3Y-TynaZvm9Z-0" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Ordene os seus elementos de forma decrescente&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(maior elemento na base e menor elemento no topo)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="KtkSw3kdoLkvy1anWyKO-1">
+          <mxGeometry x="300" y="70" width="440" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="etapa2.5" id="NyU9IHt4wHWdP7gp7_6z">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="kKhfA-hOB7hv0BCELIUE-0" />
+        <mxCell id="kKhfA-hOB7hv0BCELIUE-1" parent="kKhfA-hOB7hv0BCELIUE-0" />
+        <mxCell id="kKhfA-hOB7hv0BCELIUE-2" value="VAR1: 8" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="kKhfA-hOB7hv0BCELIUE-1">
+          <mxGeometry x="71" y="169" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kKhfA-hOB7hv0BCELIUE-3" value="VAR2: 6" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="kKhfA-hOB7hv0BCELIUE-1">
+          <mxGeometry x="70" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kKhfA-hOB7hv0BCELIUE-4" value="PILHA2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="kKhfA-hOB7hv0BCELIUE-1">
+          <mxGeometry x="60" y="330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kKhfA-hOB7hv0BCELIUE-6" value="Resultante:&lt;div&gt;topo -&amp;gt; 9&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="kKhfA-hOB7hv0BCELIUE-1">
+          <mxGeometry x="30" y="400" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kKhfA-hOB7hv0BCELIUE-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="kKhfA-hOB7hv0BCELIUE-1">
+          <mxGeometry x="40" y="60" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kKhfA-hOB7hv0BCELIUE-8" value="&lt;p id=&quot;yui_3_17_2_1_1728615129868_1770&quot; style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Dada a seguinte pilha:&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;topo&amp;nbsp;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;" vertex="1" parent="kKhfA-hOB7hv0BCELIUE-1">
+          <mxGeometry x="60" y="75" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kKhfA-hOB7hv0BCELIUE-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="kKhfA-hOB7hv0BCELIUE-1" source="kKhfA-hOB7hv0BCELIUE-2" target="kKhfA-hOB7hv0BCELIUE-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kKhfA-hOB7hv0BCELIUE-10" value="PILHA1:&lt;div&gt;topo -&amp;gt; 2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="kKhfA-hOB7hv0BCELIUE-1">
+          <mxGeometry x="16" y="270" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8AJS_gw7Zypy4umqWs2n-0" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Ordene os seus elementos de forma decrescente&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(maior elemento na base e menor elemento no topo)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="kKhfA-hOB7hv0BCELIUE-1">
+          <mxGeometry x="300" y="70" width="440" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="etapa2.6" id="PNtq4EwiGbLypeukhmqu">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="QFmU4PFL71lk_TWfIvBs-0" />
+        <mxCell id="QFmU4PFL71lk_TWfIvBs-1" parent="QFmU4PFL71lk_TWfIvBs-0" />
+        <mxCell id="QFmU4PFL71lk_TWfIvBs-2" value="VAR1: 8" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="QFmU4PFL71lk_TWfIvBs-1">
+          <mxGeometry x="71" y="169" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QFmU4PFL71lk_TWfIvBs-3" value="VAR2: 6" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="QFmU4PFL71lk_TWfIvBs-1">
+          <mxGeometry x="70" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QFmU4PFL71lk_TWfIvBs-4" value="PILHA2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="QFmU4PFL71lk_TWfIvBs-1">
+          <mxGeometry x="60" y="330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QFmU4PFL71lk_TWfIvBs-6" value="Resultante:&lt;div&gt;topo -&amp;gt; 9&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="QFmU4PFL71lk_TWfIvBs-1">
+          <mxGeometry x="30" y="400" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QFmU4PFL71lk_TWfIvBs-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="QFmU4PFL71lk_TWfIvBs-1">
+          <mxGeometry x="40" y="60" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QFmU4PFL71lk_TWfIvBs-8" value="&lt;p id=&quot;yui_3_17_2_1_1728615129868_1770&quot; style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Dada a seguinte pilha:&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;topo&amp;nbsp;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;" vertex="1" parent="QFmU4PFL71lk_TWfIvBs-1">
+          <mxGeometry x="60" y="75" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QFmU4PFL71lk_TWfIvBs-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="QFmU4PFL71lk_TWfIvBs-1" source="QFmU4PFL71lk_TWfIvBs-2" target="QFmU4PFL71lk_TWfIvBs-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QFmU4PFL71lk_TWfIvBs-10" value="PILHA1:&lt;div&gt;topo -&amp;gt; 2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="QFmU4PFL71lk_TWfIvBs-1">
+          <mxGeometry x="16" y="270" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y4o8oXoUW6eTDiiCig7k-0" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="QFmU4PFL71lk_TWfIvBs-1">
+          <mxGeometry x="340" y="230" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y4o8oXoUW6eTDiiCig7k-1" value="VAR1 &amp;lt; VAR2 ?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="QFmU4PFL71lk_TWfIvBs-1">
+          <mxGeometry x="352.5" y="245" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Um-pdYSVqhjikMVqgpbe-0" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Ordene os seus elementos de forma decrescente&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(maior elemento na base e menor elemento no topo)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="QFmU4PFL71lk_TWfIvBs-1">
+          <mxGeometry x="300" y="70" width="440" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="etapa2.7" id="AV7Ki3dC5rRj8ufRtKlp">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Llar0ingoDMr6rhxYD5t-0" />
+        <mxCell id="Llar0ingoDMr6rhxYD5t-1" parent="Llar0ingoDMr6rhxYD5t-0" />
+        <mxCell id="Llar0ingoDMr6rhxYD5t-2" value="VAR1: 8" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="Llar0ingoDMr6rhxYD5t-1">
+          <mxGeometry x="71" y="169" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Llar0ingoDMr6rhxYD5t-3" value="VAR2:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="Llar0ingoDMr6rhxYD5t-1">
+          <mxGeometry x="70" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Llar0ingoDMr6rhxYD5t-4" value="PILHA2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="Llar0ingoDMr6rhxYD5t-1">
+          <mxGeometry x="60" y="330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Llar0ingoDMr6rhxYD5t-6" value="Resultante:&lt;div&gt;topo -&amp;gt; 9&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="Llar0ingoDMr6rhxYD5t-1">
+          <mxGeometry x="30" y="400" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Llar0ingoDMr6rhxYD5t-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Llar0ingoDMr6rhxYD5t-1">
+          <mxGeometry x="40" y="60" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Llar0ingoDMr6rhxYD5t-8" value="&lt;p id=&quot;yui_3_17_2_1_1728615129868_1770&quot; style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Dada a seguinte pilha:&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;topo&amp;nbsp;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;" vertex="1" parent="Llar0ingoDMr6rhxYD5t-1">
+          <mxGeometry x="60" y="75" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Llar0ingoDMr6rhxYD5t-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Llar0ingoDMr6rhxYD5t-1" source="Llar0ingoDMr6rhxYD5t-2" target="Llar0ingoDMr6rhxYD5t-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Llar0ingoDMr6rhxYD5t-10" value="PILHA1:&lt;div&gt;topo -&amp;gt;6 -&amp;gt; 2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="Llar0ingoDMr6rhxYD5t-1">
+          <mxGeometry x="16" y="270" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FbVPRm4Q-H0sCbcwEIXF-0" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Ordene os seus elementos de forma decrescente&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(maior elemento na base e menor elemento no topo)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="Llar0ingoDMr6rhxYD5t-1">
+          <mxGeometry x="300" y="70" width="440" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="etapa2.8" id="WrUFnzThtefFUJoOvMRe">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="rkLHSaMTgQH0_hH8QMmY-0" />
+        <mxCell id="rkLHSaMTgQH0_hH8QMmY-1" parent="rkLHSaMTgQH0_hH8QMmY-0" />
+        <mxCell id="rkLHSaMTgQH0_hH8QMmY-2" value="VAR1:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="rkLHSaMTgQH0_hH8QMmY-1">
+          <mxGeometry x="71" y="169" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rkLHSaMTgQH0_hH8QMmY-3" value="VAR2:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="rkLHSaMTgQH0_hH8QMmY-1">
+          <mxGeometry x="70" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rkLHSaMTgQH0_hH8QMmY-4" value="PILHA2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="rkLHSaMTgQH0_hH8QMmY-1">
+          <mxGeometry x="60" y="330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rkLHSaMTgQH0_hH8QMmY-6" value="Resultante:&lt;div&gt;topo -&amp;gt; 8-&amp;gt; 9&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="rkLHSaMTgQH0_hH8QMmY-1">
+          <mxGeometry x="30" y="400" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rkLHSaMTgQH0_hH8QMmY-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rkLHSaMTgQH0_hH8QMmY-1">
+          <mxGeometry x="40" y="60" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rkLHSaMTgQH0_hH8QMmY-8" value="&lt;p id=&quot;yui_3_17_2_1_1728615129868_1770&quot; style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Dada a seguinte pilha:&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;topo&amp;nbsp;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;" vertex="1" parent="rkLHSaMTgQH0_hH8QMmY-1">
+          <mxGeometry x="60" y="75" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rkLHSaMTgQH0_hH8QMmY-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="rkLHSaMTgQH0_hH8QMmY-1" source="rkLHSaMTgQH0_hH8QMmY-2" target="rkLHSaMTgQH0_hH8QMmY-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rkLHSaMTgQH0_hH8QMmY-10" value="PILHA1:&lt;div&gt;topo -&amp;gt;6 -&amp;gt; 2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="rkLHSaMTgQH0_hH8QMmY-1">
+          <mxGeometry x="16" y="270" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Z883dYcBNRLz8tzVJIoM-0" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Ordene os seus elementos de forma decrescente&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(maior elemento na base e menor elemento no topo)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="rkLHSaMTgQH0_hH8QMmY-1">
+          <mxGeometry x="300" y="70" width="440" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="etapa2.9" id="Nzv-bROb437nIjd8YEtA">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="L6l5oHOylw0wrBApqnoP-0" />
+        <mxCell id="L6l5oHOylw0wrBApqnoP-1" parent="L6l5oHOylw0wrBApqnoP-0" />
+        <mxCell id="L6l5oHOylw0wrBApqnoP-2" value="VAR1:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="L6l5oHOylw0wrBApqnoP-1">
+          <mxGeometry x="71" y="169" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L6l5oHOylw0wrBApqnoP-3" value="VAR2:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="L6l5oHOylw0wrBApqnoP-1">
+          <mxGeometry x="70" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L6l5oHOylw0wrBApqnoP-4" value="PILHA2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="L6l5oHOylw0wrBApqnoP-1">
+          <mxGeometry x="60" y="330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L6l5oHOylw0wrBApqnoP-6" value="Resultante:&lt;div&gt;topo -&amp;gt; 8-&amp;gt; 9&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="L6l5oHOylw0wrBApqnoP-1">
+          <mxGeometry x="30" y="400" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L6l5oHOylw0wrBApqnoP-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="L6l5oHOylw0wrBApqnoP-1">
+          <mxGeometry x="40" y="60" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L6l5oHOylw0wrBApqnoP-8" value="&lt;p id=&quot;yui_3_17_2_1_1728615129868_1770&quot; style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Dada a seguinte pilha:&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;topo&amp;nbsp;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;" vertex="1" parent="L6l5oHOylw0wrBApqnoP-1">
+          <mxGeometry x="60" y="75" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L6l5oHOylw0wrBApqnoP-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="L6l5oHOylw0wrBApqnoP-1" source="L6l5oHOylw0wrBApqnoP-2" target="L6l5oHOylw0wrBApqnoP-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L6l5oHOylw0wrBApqnoP-10" value="PILHA1:&lt;div&gt;topo -&amp;gt;6 -&amp;gt; 2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="L6l5oHOylw0wrBApqnoP-1">
+          <mxGeometry x="16" y="270" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fa8EOKFxUQ69iGGXpC6x-0" value="COPY" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="L6l5oHOylw0wrBApqnoP-1">
+          <mxGeometry x="340" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h-Laxa_1cs9ya7lnRwKd-0" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Ordene os seus elementos de forma decrescente&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(maior elemento na base e menor elemento no topo)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="L6l5oHOylw0wrBApqnoP-1">
+          <mxGeometry x="300" y="70" width="440" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="etapa2.92" id="Lx1hDzHQJmcjYf06Xs_T">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="amKQukSWYm4tm8FN_JNR-0" />
+        <mxCell id="amKQukSWYm4tm8FN_JNR-1" parent="amKQukSWYm4tm8FN_JNR-0" />
+        <mxCell id="amKQukSWYm4tm8FN_JNR-2" value="VAR1:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="amKQukSWYm4tm8FN_JNR-1">
+          <mxGeometry x="71" y="169" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="amKQukSWYm4tm8FN_JNR-3" value="VAR2:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="amKQukSWYm4tm8FN_JNR-1">
+          <mxGeometry x="70" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="amKQukSWYm4tm8FN_JNR-4" value="PILHA2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="amKQukSWYm4tm8FN_JNR-1">
+          <mxGeometry x="60" y="330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="amKQukSWYm4tm8FN_JNR-6" value="Resultante:&lt;div&gt;topo -&amp;gt; 8-&amp;gt; 9&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="amKQukSWYm4tm8FN_JNR-1">
+          <mxGeometry x="30" y="400" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="amKQukSWYm4tm8FN_JNR-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="amKQukSWYm4tm8FN_JNR-1">
+          <mxGeometry x="40" y="60" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="amKQukSWYm4tm8FN_JNR-8" value="&lt;p id=&quot;yui_3_17_2_1_1728615129868_1770&quot; style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Dada a seguinte pilha:&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;topo -&amp;gt; 6 -&amp;gt; 2&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;" vertex="1" parent="amKQukSWYm4tm8FN_JNR-1">
+          <mxGeometry x="60" y="75" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="amKQukSWYm4tm8FN_JNR-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="amKQukSWYm4tm8FN_JNR-1" source="amKQukSWYm4tm8FN_JNR-2" target="amKQukSWYm4tm8FN_JNR-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="amKQukSWYm4tm8FN_JNR-10" value="PILHA1:&lt;div&gt;topo&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="amKQukSWYm4tm8FN_JNR-1">
+          <mxGeometry x="16" y="270" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t6BzccjWTQxjEJu9Ija_-0" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Ordene os seus elementos de forma decrescente&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(maior elemento na base e menor elemento no topo)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="amKQukSWYm4tm8FN_JNR-1">
+          <mxGeometry x="300" y="70" width="440" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="etapa3" id="nKAn8VPSyVEc0ePe5-7y">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="E_0rPSq8yFXk8kqDQpFO-0" />
+        <mxCell id="E_0rPSq8yFXk8kqDQpFO-1" parent="E_0rPSq8yFXk8kqDQpFO-0" />
+        <mxCell id="E_0rPSq8yFXk8kqDQpFO-2" value="VAR1: 6" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="E_0rPSq8yFXk8kqDQpFO-1">
+          <mxGeometry x="71" y="169" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E_0rPSq8yFXk8kqDQpFO-3" value="VAR2:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="E_0rPSq8yFXk8kqDQpFO-1">
+          <mxGeometry x="70" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E_0rPSq8yFXk8kqDQpFO-4" value="PILHA2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="E_0rPSq8yFXk8kqDQpFO-1">
+          <mxGeometry x="60" y="330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E_0rPSq8yFXk8kqDQpFO-6" value="Resultante:&lt;div&gt;topo -&amp;gt; 8-&amp;gt; 9&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="E_0rPSq8yFXk8kqDQpFO-1">
+          <mxGeometry x="30" y="400" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E_0rPSq8yFXk8kqDQpFO-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="E_0rPSq8yFXk8kqDQpFO-1">
+          <mxGeometry x="40" y="60" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E_0rPSq8yFXk8kqDQpFO-8" value="&lt;p id=&quot;yui_3_17_2_1_1728615129868_1770&quot; style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Dada a seguinte pilha:&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;topo -&amp;gt; 2&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;" vertex="1" parent="E_0rPSq8yFXk8kqDQpFO-1">
+          <mxGeometry x="60" y="75" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E_0rPSq8yFXk8kqDQpFO-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="E_0rPSq8yFXk8kqDQpFO-1" source="E_0rPSq8yFXk8kqDQpFO-2" target="E_0rPSq8yFXk8kqDQpFO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E_0rPSq8yFXk8kqDQpFO-10" value="PILHA1:&lt;div&gt;topo&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="E_0rPSq8yFXk8kqDQpFO-1">
+          <mxGeometry x="16" y="270" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2PkPfH_ByvEvHlkswOr4-0" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Ordene os seus elementos de forma decrescente&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(maior elemento na base e menor elemento no topo)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="E_0rPSq8yFXk8kqDQpFO-1">
+          <mxGeometry x="300" y="70" width="440" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="etapa3.1" id="lduEthnJzmMcXiF41PAm">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="EHRZivjK2ERDC6EIXRsx-0" />
+        <mxCell id="EHRZivjK2ERDC6EIXRsx-1" parent="EHRZivjK2ERDC6EIXRsx-0" />
+        <mxCell id="EHRZivjK2ERDC6EIXRsx-2" value="VAR1: 6" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="EHRZivjK2ERDC6EIXRsx-1">
+          <mxGeometry x="71" y="169" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EHRZivjK2ERDC6EIXRsx-3" value="VAR2: 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="EHRZivjK2ERDC6EIXRsx-1">
+          <mxGeometry x="70" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EHRZivjK2ERDC6EIXRsx-4" value="PILHA2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="EHRZivjK2ERDC6EIXRsx-1">
+          <mxGeometry x="60" y="330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EHRZivjK2ERDC6EIXRsx-5" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Ordene os seus elementos de forma decrescente&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(maior elemento na base e menor elemento no topo)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="EHRZivjK2ERDC6EIXRsx-1">
+          <mxGeometry x="300" y="70" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EHRZivjK2ERDC6EIXRsx-6" value="Resultante:&lt;div&gt;topo -&amp;gt; 8-&amp;gt; 9&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="EHRZivjK2ERDC6EIXRsx-1">
+          <mxGeometry x="30" y="400" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EHRZivjK2ERDC6EIXRsx-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EHRZivjK2ERDC6EIXRsx-1">
+          <mxGeometry x="40" y="60" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EHRZivjK2ERDC6EIXRsx-8" value="&lt;p id=&quot;yui_3_17_2_1_1728615129868_1770&quot; style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Dada a seguinte pilha:&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;topo&amp;nbsp;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;" vertex="1" parent="EHRZivjK2ERDC6EIXRsx-1">
+          <mxGeometry x="60" y="75" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EHRZivjK2ERDC6EIXRsx-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="EHRZivjK2ERDC6EIXRsx-1" source="EHRZivjK2ERDC6EIXRsx-2" target="EHRZivjK2ERDC6EIXRsx-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EHRZivjK2ERDC6EIXRsx-10" value="PILHA1:&lt;div&gt;topo&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="EHRZivjK2ERDC6EIXRsx-1">
+          <mxGeometry x="16" y="270" width="220" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="etapa3.2" id="KzL7xKMeBi5lLk8sUdQh">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Zlnml72wtHx0lIGNk-jE-0" />
+        <mxCell id="Zlnml72wtHx0lIGNk-jE-1" parent="Zlnml72wtHx0lIGNk-jE-0" />
+        <mxCell id="Zlnml72wtHx0lIGNk-jE-2" value="VAR1: 6" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="Zlnml72wtHx0lIGNk-jE-1">
+          <mxGeometry x="71" y="169" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zlnml72wtHx0lIGNk-jE-3" value="VAR2: 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="Zlnml72wtHx0lIGNk-jE-1">
+          <mxGeometry x="70" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zlnml72wtHx0lIGNk-jE-4" value="PILHA2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="Zlnml72wtHx0lIGNk-jE-1">
+          <mxGeometry x="60" y="330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zlnml72wtHx0lIGNk-jE-5" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Ordene os seus elementos de forma decrescente&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(maior elemento na base e menor elemento no topo)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="Zlnml72wtHx0lIGNk-jE-1">
+          <mxGeometry x="300" y="70" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zlnml72wtHx0lIGNk-jE-6" value="Resultante:&lt;div&gt;topo -&amp;gt; 8-&amp;gt; 9&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="Zlnml72wtHx0lIGNk-jE-1">
+          <mxGeometry x="30" y="400" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zlnml72wtHx0lIGNk-jE-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Zlnml72wtHx0lIGNk-jE-1">
+          <mxGeometry x="40" y="60" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zlnml72wtHx0lIGNk-jE-8" value="&lt;p id=&quot;yui_3_17_2_1_1728615129868_1770&quot; style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Dada a seguinte pilha:&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;topo&amp;nbsp;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;" vertex="1" parent="Zlnml72wtHx0lIGNk-jE-1">
+          <mxGeometry x="60" y="75" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zlnml72wtHx0lIGNk-jE-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Zlnml72wtHx0lIGNk-jE-1" source="Zlnml72wtHx0lIGNk-jE-2" target="Zlnml72wtHx0lIGNk-jE-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zlnml72wtHx0lIGNk-jE-10" value="PILHA1:&lt;div&gt;topo&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="Zlnml72wtHx0lIGNk-jE-1">
+          <mxGeometry x="16" y="270" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-qmZpw7JyLCt7VCJ0pjg-0" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Zlnml72wtHx0lIGNk-jE-1">
+          <mxGeometry x="350" y="240" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-qmZpw7JyLCt7VCJ0pjg-1" value="VAR1 &amp;lt; VAR2 ?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="Zlnml72wtHx0lIGNk-jE-1">
+          <mxGeometry x="362.5" y="255" width="125" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="etapa3.3" id="DDeVM16FWC4f4OfZFFF8">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="J7vesgqgJIP9FU6FddNH-0" />
+        <mxCell id="J7vesgqgJIP9FU6FddNH-1" parent="J7vesgqgJIP9FU6FddNH-0" />
+        <mxCell id="J7vesgqgJIP9FU6FddNH-2" value="VAR1: 6" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="J7vesgqgJIP9FU6FddNH-1">
+          <mxGeometry x="71" y="169" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J7vesgqgJIP9FU6FddNH-3" value="VAR2:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="J7vesgqgJIP9FU6FddNH-1">
+          <mxGeometry x="70" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J7vesgqgJIP9FU6FddNH-4" value="PILHA2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="J7vesgqgJIP9FU6FddNH-1">
+          <mxGeometry x="60" y="330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J7vesgqgJIP9FU6FddNH-5" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Ordene os seus elementos de forma decrescente&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(maior elemento na base e menor elemento no topo)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="J7vesgqgJIP9FU6FddNH-1">
+          <mxGeometry x="300" y="70" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J7vesgqgJIP9FU6FddNH-6" value="Resultante:&lt;div&gt;topo -&amp;gt; 8-&amp;gt; 9&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="J7vesgqgJIP9FU6FddNH-1">
+          <mxGeometry x="30" y="400" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J7vesgqgJIP9FU6FddNH-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="J7vesgqgJIP9FU6FddNH-1">
+          <mxGeometry x="40" y="60" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J7vesgqgJIP9FU6FddNH-8" value="&lt;p id=&quot;yui_3_17_2_1_1728615129868_1770&quot; style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Dada a seguinte pilha:&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;topo&amp;nbsp;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;" vertex="1" parent="J7vesgqgJIP9FU6FddNH-1">
+          <mxGeometry x="60" y="75" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J7vesgqgJIP9FU6FddNH-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="J7vesgqgJIP9FU6FddNH-1" source="J7vesgqgJIP9FU6FddNH-2" target="J7vesgqgJIP9FU6FddNH-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J7vesgqgJIP9FU6FddNH-10" value="PILHA1:&lt;div&gt;topo - &amp;gt; 2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="J7vesgqgJIP9FU6FddNH-1">
+          <mxGeometry x="16" y="270" width="220" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="etapa3.4" id="2bOrfPBdkmGwIhwmG3D9">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="rxoACAHA-iqe0IfgsEPS-0" />
+        <mxCell id="rxoACAHA-iqe0IfgsEPS-1" parent="rxoACAHA-iqe0IfgsEPS-0" />
+        <mxCell id="rxoACAHA-iqe0IfgsEPS-2" value="VAR1:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="rxoACAHA-iqe0IfgsEPS-1">
+          <mxGeometry x="71" y="169" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rxoACAHA-iqe0IfgsEPS-3" value="VAR2:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="rxoACAHA-iqe0IfgsEPS-1">
+          <mxGeometry x="70" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rxoACAHA-iqe0IfgsEPS-4" value="PILHA2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="rxoACAHA-iqe0IfgsEPS-1">
+          <mxGeometry x="60" y="330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rxoACAHA-iqe0IfgsEPS-5" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Ordene os seus elementos de forma decrescente&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(maior elemento na base e menor elemento no topo)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="rxoACAHA-iqe0IfgsEPS-1">
+          <mxGeometry x="300" y="70" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rxoACAHA-iqe0IfgsEPS-6" value="Resultante:&lt;div&gt;topo -&amp;gt; 6-&amp;gt; 8-&amp;gt; 9&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="rxoACAHA-iqe0IfgsEPS-1">
+          <mxGeometry x="30" y="400" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rxoACAHA-iqe0IfgsEPS-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rxoACAHA-iqe0IfgsEPS-1">
+          <mxGeometry x="40" y="60" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rxoACAHA-iqe0IfgsEPS-8" value="&lt;p id=&quot;yui_3_17_2_1_1728615129868_1770&quot; style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Dada a seguinte pilha:&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;topo&amp;nbsp;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;" vertex="1" parent="rxoACAHA-iqe0IfgsEPS-1">
+          <mxGeometry x="60" y="75" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rxoACAHA-iqe0IfgsEPS-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="rxoACAHA-iqe0IfgsEPS-1" source="rxoACAHA-iqe0IfgsEPS-2" target="rxoACAHA-iqe0IfgsEPS-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rxoACAHA-iqe0IfgsEPS-10" value="PILHA1:&lt;div&gt;topo - &amp;gt; 2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="rxoACAHA-iqe0IfgsEPS-1">
+          <mxGeometry x="16" y="270" width="220" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="etapa3.5" id="zINac_UUPBi38zmU81-Q">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="SDYpbLBsLRYyT5K-fBc3-0" />
+        <mxCell id="SDYpbLBsLRYyT5K-fBc3-1" parent="SDYpbLBsLRYyT5K-fBc3-0" />
+        <mxCell id="SDYpbLBsLRYyT5K-fBc3-2" value="VAR1:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="SDYpbLBsLRYyT5K-fBc3-1">
+          <mxGeometry x="71" y="169" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SDYpbLBsLRYyT5K-fBc3-3" value="VAR2:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="SDYpbLBsLRYyT5K-fBc3-1">
+          <mxGeometry x="70" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SDYpbLBsLRYyT5K-fBc3-4" value="PILHA2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="SDYpbLBsLRYyT5K-fBc3-1">
+          <mxGeometry x="60" y="330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SDYpbLBsLRYyT5K-fBc3-5" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Ordene os seus elementos de forma decrescente&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(maior elemento na base e menor elemento no topo)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="SDYpbLBsLRYyT5K-fBc3-1">
+          <mxGeometry x="300" y="70" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SDYpbLBsLRYyT5K-fBc3-6" value="Resultante:&lt;div&gt;topo -&amp;gt; 6-&amp;gt; 8-&amp;gt; 9&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="SDYpbLBsLRYyT5K-fBc3-1">
+          <mxGeometry x="30" y="400" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SDYpbLBsLRYyT5K-fBc3-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="SDYpbLBsLRYyT5K-fBc3-1">
+          <mxGeometry x="40" y="60" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SDYpbLBsLRYyT5K-fBc3-8" value="&lt;p id=&quot;yui_3_17_2_1_1728615129868_1770&quot; style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Dada a seguinte pilha:&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;topo&amp;nbsp;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;" vertex="1" parent="SDYpbLBsLRYyT5K-fBc3-1">
+          <mxGeometry x="60" y="75" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SDYpbLBsLRYyT5K-fBc3-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="SDYpbLBsLRYyT5K-fBc3-1" source="SDYpbLBsLRYyT5K-fBc3-2" target="SDYpbLBsLRYyT5K-fBc3-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SDYpbLBsLRYyT5K-fBc3-10" value="PILHA1:&lt;div&gt;topo - &amp;gt; 2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="SDYpbLBsLRYyT5K-fBc3-1">
+          <mxGeometry x="16" y="270" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ItVFYsQFMB-GBIw0OiX--0" value="COPY" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="SDYpbLBsLRYyT5K-fBc3-1">
+          <mxGeometry x="350" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="etapa3.6" id="MkCETv5YMEOMGkuB5FSA">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="ev1PAOGQUvJCQaJfhJip-0" />
+        <mxCell id="ev1PAOGQUvJCQaJfhJip-1" parent="ev1PAOGQUvJCQaJfhJip-0" />
+        <mxCell id="ev1PAOGQUvJCQaJfhJip-2" value="VAR1:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="ev1PAOGQUvJCQaJfhJip-1">
+          <mxGeometry x="71" y="169" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ev1PAOGQUvJCQaJfhJip-3" value="VAR2:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="ev1PAOGQUvJCQaJfhJip-1">
+          <mxGeometry x="70" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ev1PAOGQUvJCQaJfhJip-4" value="PILHA2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="ev1PAOGQUvJCQaJfhJip-1">
+          <mxGeometry x="60" y="330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ev1PAOGQUvJCQaJfhJip-5" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Ordene os seus elementos de forma decrescente&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(maior elemento na base e menor elemento no topo)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="ev1PAOGQUvJCQaJfhJip-1">
+          <mxGeometry x="300" y="70" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ev1PAOGQUvJCQaJfhJip-6" value="Resultante:&lt;div&gt;topo -&amp;gt; 6-&amp;gt; 8-&amp;gt; 9&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="ev1PAOGQUvJCQaJfhJip-1">
+          <mxGeometry x="30" y="400" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ev1PAOGQUvJCQaJfhJip-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ev1PAOGQUvJCQaJfhJip-1">
+          <mxGeometry x="40" y="60" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ev1PAOGQUvJCQaJfhJip-8" value="&lt;p id=&quot;yui_3_17_2_1_1728615129868_1770&quot; style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Dada a seguinte pilha:&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;topo -&amp;gt; 2&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;" vertex="1" parent="ev1PAOGQUvJCQaJfhJip-1">
+          <mxGeometry x="60" y="75" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ev1PAOGQUvJCQaJfhJip-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="ev1PAOGQUvJCQaJfhJip-1" source="ev1PAOGQUvJCQaJfhJip-2" target="ev1PAOGQUvJCQaJfhJip-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ev1PAOGQUvJCQaJfhJip-10" value="PILHA1:&lt;div&gt;topo&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="ev1PAOGQUvJCQaJfhJip-1">
+          <mxGeometry x="16" y="270" width="220" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="etapa4" id="QpTgwa8FDiUV47NKBPNL">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="_GJN2Dt5v2NbzGhfXJo3-0" />
+        <mxCell id="_GJN2Dt5v2NbzGhfXJo3-1" parent="_GJN2Dt5v2NbzGhfXJo3-0" />
+        <mxCell id="_GJN2Dt5v2NbzGhfXJo3-2" value="VAR1: 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="_GJN2Dt5v2NbzGhfXJo3-1">
+          <mxGeometry x="71" y="169" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_GJN2Dt5v2NbzGhfXJo3-3" value="VAR2:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="_GJN2Dt5v2NbzGhfXJo3-1">
+          <mxGeometry x="70" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_GJN2Dt5v2NbzGhfXJo3-4" value="PILHA2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="_GJN2Dt5v2NbzGhfXJo3-1">
+          <mxGeometry x="60" y="330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_GJN2Dt5v2NbzGhfXJo3-5" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Ordene os seus elementos de forma decrescente&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(maior elemento na base e menor elemento no topo)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="_GJN2Dt5v2NbzGhfXJo3-1">
+          <mxGeometry x="300" y="70" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_GJN2Dt5v2NbzGhfXJo3-6" value="Resultante:&lt;div&gt;topo -&amp;gt; 6-&amp;gt; 8-&amp;gt; 9&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="_GJN2Dt5v2NbzGhfXJo3-1">
+          <mxGeometry x="30" y="400" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_GJN2Dt5v2NbzGhfXJo3-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_GJN2Dt5v2NbzGhfXJo3-1">
+          <mxGeometry x="40" y="60" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_GJN2Dt5v2NbzGhfXJo3-8" value="&lt;p id=&quot;yui_3_17_2_1_1728615129868_1770&quot; style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Dada a seguinte pilha:&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;topo&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;" vertex="1" parent="_GJN2Dt5v2NbzGhfXJo3-1">
+          <mxGeometry x="60" y="75" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_GJN2Dt5v2NbzGhfXJo3-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_GJN2Dt5v2NbzGhfXJo3-1" source="_GJN2Dt5v2NbzGhfXJo3-2" target="_GJN2Dt5v2NbzGhfXJo3-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_GJN2Dt5v2NbzGhfXJo3-10" value="PILHA1:&lt;div&gt;topo&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="_GJN2Dt5v2NbzGhfXJo3-1">
+          <mxGeometry x="16" y="270" width="220" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="etapa4.1" id="9zuJhdNtFmLCmKyuOZg0">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="sJhUeY_-gUZzCEA6jqFu-0" />
+        <mxCell id="sJhUeY_-gUZzCEA6jqFu-1" parent="sJhUeY_-gUZzCEA6jqFu-0" />
+        <mxCell id="sJhUeY_-gUZzCEA6jqFu-2" value="VAR1:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="sJhUeY_-gUZzCEA6jqFu-1">
+          <mxGeometry x="71" y="169" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sJhUeY_-gUZzCEA6jqFu-3" value="VAR2:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="sJhUeY_-gUZzCEA6jqFu-1">
+          <mxGeometry x="70" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sJhUeY_-gUZzCEA6jqFu-4" value="PILHA2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="sJhUeY_-gUZzCEA6jqFu-1">
+          <mxGeometry x="60" y="330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sJhUeY_-gUZzCEA6jqFu-5" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Ordene os seus elementos de forma decrescente&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: sans-serif, sans-serif; font-size: 18px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;(maior elemento na base e menor elemento no topo)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="sJhUeY_-gUZzCEA6jqFu-1">
+          <mxGeometry x="300" y="70" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sJhUeY_-gUZzCEA6jqFu-6" value="Resultante:&lt;div&gt;topo -&amp;gt; 2-&amp;gt; 6-&amp;gt; 8-&amp;gt; 9&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="sJhUeY_-gUZzCEA6jqFu-1">
+          <mxGeometry x="30" y="400" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sJhUeY_-gUZzCEA6jqFu-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sJhUeY_-gUZzCEA6jqFu-1">
+          <mxGeometry x="40" y="60" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sJhUeY_-gUZzCEA6jqFu-8" value="&lt;p id=&quot;yui_3_17_2_1_1728615129868_1770&quot; style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Dada a seguinte pilha:&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 0.5em; font-family: sans-serif, sans-serif; font-size: 16px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;topo&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;" vertex="1" parent="sJhUeY_-gUZzCEA6jqFu-1">
+          <mxGeometry x="60" y="75" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sJhUeY_-gUZzCEA6jqFu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="sJhUeY_-gUZzCEA6jqFu-1" source="sJhUeY_-gUZzCEA6jqFu-2" target="sJhUeY_-gUZzCEA6jqFu-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sJhUeY_-gUZzCEA6jqFu-10" value="PILHA1:&lt;div&gt;topo&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="sJhUeY_-gUZzCEA6jqFu-1">
+          <mxGeometry x="16" y="270" width="220" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
