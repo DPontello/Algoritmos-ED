@@ -118,7 +118,7 @@ void MaxHeap::insere(dado d){
 
 void MaxHeap::corrigeSubindo(int i){
     int p  = pai(i);
-    if(heap[i] == heap[p]){
+    if(heap[i] > heap[p]){
         swap(heap[i], heap[p]);
         corrigeSubindo(p);
     }
