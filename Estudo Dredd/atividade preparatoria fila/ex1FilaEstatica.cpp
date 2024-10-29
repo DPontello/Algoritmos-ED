@@ -40,9 +40,13 @@ Nome: processo6 Assunto: Tiao Tipo: z Processo: 22
 Nome: processo7 Assunto: Marlon Tipo: a Processo: 40
 */
 
+/* Classe fila estatica
+ *
+ * by Renato Ramos da Silva, 2023, Estruturas de Dados
+ *
+ */
 #include <iostream>
 #include <stdexcept>
-
 using namespace std;
 
 const int FILAVAZIA = -1;
@@ -55,122 +59,119 @@ struct Dado {
     int nProcesso;
 };
 
-// Função que imprime informações de um dado.
-void imprimir_dado(const Dado& umDado) {
+// Função para imprimir informações de um dado
+void imprimir_dado(const Dado& umDado){
     cout << "Nome: " << umDado.nome << " Assunto: " << umDado.assunto 
          << " Tipo: " << umDado.tipo << " Processo: " << umDado.nProcesso << endl;
 }
 
 class Fila {
-private:
-    Dado mDado[CAPACIDADE_FILA]; // Vetor para armazenar os dados
-    int inicio, fim; // Índices de início e fim da fila
-    int tamanho; // Número de elementos na fila
+    private:
+        Dado* mFila;
+        int posPrimeiro, posUltimo;
 
-public:
-    // Constrói fila vazia.
-    Fila();
-    // Destrutor que desaloca memória.
-    ~Fila();
-    // Retira e retorna o elemento que estiver na primeira posição.
-    Dado Desenfileirar(); 
-    // Insere um elemento na fila.
-    void Enfileirar(const Dado& d);
-    // Apaga todos os dados da fila.
-    void LimparTudo();
-    // Imprime o primeiro elemento da fila sem removê-lo.
-    void PrimeiroDaFila();
-    // Informa se a fila está vazia.
-    bool Vazia();
-    // Informa se a fila está cheia.
-    bool Cheia();
+    public:
+        Fila();
+        ~Fila();
+        Dado Desenfileirar(); 
+        void Enfileirar(const Dado& d);
+        void LimparTudo();
+        void PrimeiroDaFila();
+        bool Vazia();
+        bool Cheia();
 };
 
-// Construtor da Fila
 Fila::Fila() {
-    inicio = 0;
-    fim = -1;
-    tamanho = 0;
+    mFila = new Dado[CAPACIDADE_FILA];
+    posPrimeiro = FILAVAZIA;
+    posUltimo = FILAVAZIA;
 }
 
-// Destrutor da Fila
 Fila::~Fila() {
-    LimparTudo();
+    delete[] mFila;
 }
 
-// Função para remover um item da fila (desenfileirar)
 Dado Fila::Desenfileirar() {
-    if (this->Vazia()) throw runtime_error("Erro: fila vazia!");
+    if (Vazia()) throw runtime_error("Erro: fila vazia!");
     
-    Dado apagado = mDado[inicio]; // Armazena o item a ser removido
-    inicio = (inicio + 1) % CAPACIDADE_FILA; // Avança o início
-    tamanho--; // Reduz o tamanho da fila
-    return apagado;
-}
-
-// Função para adicionar um item na fila (enfileirar)
-void Fila::Enfileirar(const Dado& d) {
-    if (this->Cheia()) throw runtime_error("Erro: fila cheia!");
-
-    fim = (fim + 1) % CAPACIDADE_FILA; // Avança o fim
-    mDado[fim] = d; // Insere o novo item
-    tamanho++; // Aumenta o tamanho da fila
-}
-
-// Função para limpar todos os itens da fila
-void Fila::LimparTudo() {
-    while (!Vazia()) {
-        imprimir_dado(Desenfileirar()); // Imprime e remove cada item da fila
+    Dado removido = mFila[posPrimeiro];
+    
+    // Atualiza posPrimeiro na fila circular
+    if (posPrimeiro == posUltimo) { // Se houver apenas um elemento, fila fica vazia
+        posPrimeiro = FILAVAZIA;
+        posUltimo = FILAVAZIA;
+    } else {
+        posPrimeiro = (posPrimeiro + 1) % CAPACIDADE_FILA;
     }
+    
+    return removido;
 }
 
-// Função para mostrar o primeiro item da fila sem removê-lo
+void Fila::Enfileirar(const Dado& d) {
+    if (Cheia()) throw runtime_error("Erro: fila cheia!");
+    
+    if (Vazia()) { // Inserindo o primeiro elemento
+        posPrimeiro = 0;
+        posUltimo = 0;
+    } else {
+        posUltimo = (posUltimo + 1) % CAPACIDADE_FILA;
+    }
+    
+    mFila[posUltimo] = d;
+}
+
+void Fila::LimparTudo() {
+    posPrimeiro = FILAVAZIA;
+    posUltimo = FILAVAZIA;
+}
+
 void Fila::PrimeiroDaFila() {
-    if (this->Vazia()) throw runtime_error("Erro: fila vazia!");
-    imprimir_dado(mDado[inicio]); // Imprime o primeiro item da fila
+    if (Vazia()) throw runtime_error("Erro: fila vazia!");
+    imprimir_dado(mFila[posPrimeiro]);
 }
 
-// Verifica se a fila está vazia
 bool Fila::Vazia() {
-    return (tamanho == 0);
+    return (posPrimeiro == FILAVAZIA);
 }
 
-// Verifica se a fila está cheia
 bool Fila::Cheia() {
-    return (tamanho == CAPACIDADE_FILA);
+    return ((posUltimo + 1) % CAPACIDADE_FILA == posPrimeiro);
 }
 
 int main() {
     Fila fila;
     Dado info;
     char comando;
-
-    // Loop principal do programa
-    while (cin >> comando) {
+    do {
         try {
+            cin >> comando;
             switch (comando) {
-            case 'i': // Inserir um item
-                cin >> info.nome >> info.assunto >> info.tipo >> info.nProcesso;
-                fila.Enfileirar(info);
-                break;
-            case 'r': // Remover um item
-                imprimir_dado(fila.Desenfileirar());
-                break;
-            case 'l': // Limpar todos os itens
-                fila.LimparTudo();
-                break;
-            case 'e': // Mostrar o primeiro item
-                fila.PrimeiroDaFila();
-                break;
-            case 'f': // Finalizar o programa
-                fila.LimparTudo();
-                return 0;
-            default:
-                cerr << "Comando inválido\n";
+                case 'i': // inserir
+                    cin >> info.nome >> info.assunto >> info.tipo >> info.nProcesso;
+                    fila.Enfileirar(info);
+                    break;
+                case 'r': // remover
+                    imprimir_dado(fila.Desenfileirar());
+                    break;
+                case 'l': // limpar tudo
+                    fila.LimparTudo();
+                    break;
+                case 'e': // espiar 
+                    fila.PrimeiroDaFila();
+                    break;
+                case 'f': // finalizar
+                    break;
+                default:
+                    cerr << "Comando inválido\n";
             }
         } catch (runtime_error& e) {
-            cout << e.what() << endl; // Exibe mensagens de erro
+            cout << e.what() << endl;
         }
+    } while (comando != 'f');
+    
+    while (!fila.Vazia()) {
+        imprimir_dado(fila.Desenfileirar());
     }
+    cout << endl;
     return 0;
 }
