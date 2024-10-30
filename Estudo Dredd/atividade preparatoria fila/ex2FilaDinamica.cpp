@@ -35,6 +35,11 @@ Nome: eliminarBando Premio: dezmilDolares Tipo: a tempo: 30000
 
 */
 
+/* Classe Fila encadeada
+ *
+ * by Renato Ramos da Silva, 2023, Estruturas de Dados
+ *
+ */
 #include <iostream>
 #include <stdexcept>
 
@@ -49,7 +54,7 @@ struct Dado {
 
 // Imprime as informações de um dado qualquer
 void imprimir_dado(const Dado& umDado) {
-    cout << "Nome: " << umDado.nome << " Premio: " << umDado.premio  << " Tipo: " << umDado.tipo << " tempo: " << umDado.tempo << endl;
+    cout << "Nome: " << umDado.nome << " Premio: " << umDado.premio << " Tipo: " << umDado.tipo << " tempo: " << umDado.tempo << endl;
 }
 
 class Noh {
@@ -78,7 +83,7 @@ class Fila {
         // Apagar todos os dados da Fila.
         void LimparTudo();
         // Retorna o elemento que está na frente da Fila, sem desenfileirar.
-        inline void Topo();
+        inline void Primeiro();
         // Informa se a Fila está Vazia.
         inline bool Vazia();
     private:
@@ -92,15 +97,14 @@ Fila::Fila() {
 }
 
 Fila::~Fila() {
-    LimparTudo();
+
 }
 
 Dado Fila::Desenfileirar() {
     if (this->Vazia()) throw runtime_error("Erro: Fila vazia!");
     // completar com o código, caso não esteja vazia
-    Dado apagado;
+    Dado apagado = inicio->mDado;
     Noh *aux = inicio;
-    apagado = inicio->mDado;
     inicio = inicio->mProx;
     aux->mProx = NULL;
     delete aux;
@@ -119,15 +123,16 @@ void Fila::Enfileirar(const Dado& d) {
 }
 
 void Fila::LimparTudo() {
-    while(inicio != NULL){
+    while(!Vazia()){
         Desenfileirar();
     }
 }
 
-void Fila::Topo() {
+void Fila::Primeiro() {
     if (this->Vazia()) throw runtime_error("Erro: Fila vazia!");
     // completar com o código, caso não esteja vazia
     imprimir_dado(inicio->mDado);
+
 }
 
 bool Fila::Vazia() {
@@ -153,8 +158,8 @@ int main() {
                 case 'l': // limpar tudo
                     fila.LimparTudo();
                     break;
-                case 'e': // espiar primeiro dado (INICIO)               
-                    fila.Topo();
+                case 'e': // espiar                
+                    fila.Primeiro();
                     break;
                 case 'f': // finalizar
                     // checado no do-while

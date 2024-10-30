@@ -48,7 +48,7 @@ struct Dado {
 
 // Imprime as informações de um dado qualquer
 void imprimir_dado(const Dado& umDado) {
-    cout << "Nome: " << umDado.nome << " Tipo: " << umDado.tipo << " Valor: " << umDado.valor << endl;
+    cout << "Nome: " << umDado.nome << " Tipo: " << umDado.tipo << " Valor:" << umDado.valor << endl;
 }
 
 class Noh {
@@ -104,13 +104,13 @@ Dado Pilha::Desempilhar() {
 }
 
 void Pilha::Empilhar(const Dado& d) {
-   Noh *novo = new Noh(d);
-   novo->mProx = mTopo;
-   mTopo = novo;
+    Noh *novo = new Noh(d);
+    novo->mProx = mTopo;
+    mTopo = novo;
 }
 
 void Pilha::LimparTudo() {
-    while(mTopo != NULL){
+    while(this->Vazia()){
         Desempilhar();
     }
 }
@@ -118,7 +118,7 @@ void Pilha::LimparTudo() {
 void Pilha::Topo() {
     if (this->Vazia()) throw runtime_error("Erro: pilha vazia!");
     // completar com o código, caso não esteja vazia
-    imprimir_dado(mTopo->mDado); // Imprime o primeiro item da pilha
+    imprimir_dado(mTopo->mDado);
 }
 
 bool Pilha::Vazia() {

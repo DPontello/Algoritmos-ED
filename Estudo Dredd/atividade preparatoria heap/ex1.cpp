@@ -37,6 +37,12 @@ p
 f
 */
 
+/*
+    MaxHeap, para alteração de prioridade
+    by joukim & bruno, 2019
+    alterado em 2023 by Renato
+*/
+
 #include <iostream>
 #include <utility> // para usar swap
 #include <stdexcept> // para usar exceção com runtime_error
@@ -60,7 +66,7 @@ bool operator<(dado d1, dado d2) {
 }
 
 ostream& operator<<(ostream& output,const dado& d) {
-    output << "[" << d.nomeTarefa << "/" << d.tipoTarefa << "/" << d.energiaGasta << "/" << d.tempoEstimado << "/" << d.prioridade << "]"; 
+    output << "[" << d.nomeTarefa << "/" << d.tipoTarefa << "/" << d.energiaGasta << "/" << d.tempoEstimado << "/" << d.prioridade <<"]"; 
     return output;
 }
 
@@ -80,19 +86,16 @@ public:
     void imprime();
     dado retiraRaiz();
     void insere(dado d);
-    int getTamanho() {
-        return tamanho;
-    }
 };
 
 MaxHeap::MaxHeap(int cap) {
-    capacidade = cap;
-    heap = new dado[capacidade];
     tamanho = 0;
+    capacidade = cap;
+    heap = new dado[cap];
 }
 
 MaxHeap::~MaxHeap() {
-    delete[] heap;
+   delete[] heap;
 }
 
 int MaxHeap::pai(int i) {
@@ -100,25 +103,26 @@ int MaxHeap::pai(int i) {
 }
     
 int MaxHeap::esquerdo(int i) {
-    return (2*i+1);
+    return i*2+1;
 }
     
 int MaxHeap::direito(int i) {
-    return (2*i+2);
+    return i*2+2;
 }
     
 void MaxHeap::corrigeDescendo(int i) {
-    int maior = i;
     int esq = esquerdo(i);
     int dir = direito(i);
+    int maior = i;
 
-    if ((esq < tamanho) && (heap[esq].energiaGasta > heap[maior].energiaGasta)) {
+    if(esq < tamanho && heap[esq] > heap[maior]){
         maior = esq;
     }
-    if ((dir < tamanho) && (heap[dir].energiaGasta > heap[maior].energiaGasta)) {
+
+    if(dir < tamanho && heap[dir] > heap[maior]){
         maior = dir;
     }
-    if (maior != i) {
+    if(maior != i){
         swap(heap[i], heap[maior]);
         corrigeDescendo(maior);
     }
@@ -126,44 +130,38 @@ void MaxHeap::corrigeDescendo(int i) {
 
 void MaxHeap::corrigeSubindo(int i) {
     int p = pai(i);
-    
-    if (p >= 0 && heap[i].energiaGasta > heap[p].energiaGasta) {
+
+    if(heap[i] > heap[p]){
         swap(heap[i], heap[p]);
         corrigeSubindo(p);
     }
 }
-
+        
 void MaxHeap::imprime() {
-    if (tamanho == 0) {
-        cout << "Heap vazia!" << endl; 
-        return;
-    }
-    for (int i = 0; i < tamanho; i++) {
+    if(tamanho ==0)throw runtime_error("Heap vazia!");
+    for (int i=0; i<tamanho; i++) {
         cout << heap[i] << " ";
     }
     cout << endl;
 }
 
 dado MaxHeap::retiraRaiz() {
-    if (tamanho == 0) {
-        throw runtime_error("Erro ao retirar raiz"); 
-    }
-    dado aux = heap[0];
-    swap(heap[0], heap[tamanho - 1]);
+    if(tamanho == 0) throw runtime_error("Erro ao retirar raiz");
+    dado retirado = heap[0];
+    swap(heap[0], heap[tamanho-1]);
     tamanho--;
     corrigeDescendo(0);
-    return aux;
+    return retirado;
 }
 
-void MaxHeap::insere(dado d) {
-    if (tamanho == capacidade) {
-        cerr << "Erro ao inserir" << endl;
-        return; 
-    }
-    heap[tamanho] = d; 
+
+void MaxHeap::insere(dado d){
+    if(tamanho == capacidade)throw runtime_error("Erro ao inserir");
+    heap[tamanho] = d;
     corrigeSubindo(tamanho);
     tamanho++;
 }
+
 
 int main() {
     int capacidade;
@@ -184,14 +182,19 @@ int main() {
                 case 'r': // remover
                     cout << meuHeap.retiraRaiz().nomeTarefa << endl;
                     break;
-                case 'p': // imprimir
+                case 'p': // limpar tudo
                     meuHeap.imprime();
                     break;
+                case 'f': // finalizar
+                    // checado no do-while
+                    break;
+                default:
+                    cerr << "comando inválido\n";
             }
-        } catch (runtime_error &e) {
+        } catch (runtime_error& e) {
             cout << e.what() << endl;
         }
-    } while (comando != 'f');
-
+    } while (comando != 'f'); // finalizar execução
+    cout << endl;
     return 0;
 }
