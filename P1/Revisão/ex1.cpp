@@ -71,79 +71,92 @@ AGUARDE
 */
 
 #include <iostream>
+#include <stdexcept>
 using namespace std;
 
-struct dado{
-	string nome = "vazio";
-	string tipo;
-	dado *proximo;
+struct dado {
+    string nome = "vazio";
+    string tipo;
+    dado* proximo;
 };
 
-class fila{
-	private:
-		dado *inicio;
-		dado *fim;
-	public:
-		fila(){
-			inicio = NULL;
-			fim = NULL;			
-		}
-		void enfileirar (dado entrada){
-			dado *novo = new dado;
-			*novo = entrada;
-			if (fim != NULL)
-				fim->proximo = novo;
-			else
-				inicio = novo;
-			fim = novo;
-		}
-		dado desenfileirar(){
-			if (inicio == NULL) throw runtime_error("Fila vazia!");
-			dado *retornado = new dado;
-			dado *removido = inicio;
-			if (inicio == fim)
-				fim = NULL;
-			retornado->nome = inicio->nome;
-			retornado->tipo = inicio->tipo;
-			inicio = inicio->proximo;
-			removido->proximo = NULL;
-			delete removido;
-			return *retornado;
-		}
-		~fila(){
-			while (inicio != NULL)
-				desenfileirar();
-		}
-		dado atendimento (string tipo){
-            fila prio;
-            
-            if(this->inicio == NULL) __throw_runtime_error ("AGUARDE");
-            for(int i = 0; i < 3; i++){
-                if(this->inicio->tipo == "prioridade")
-            }
-        }
+class fila {
+private:
+    dado* inicio;
+    dado* fim;
+
+public:
+    fila() : inicio(nullptr), fim(nullptr) {}
+
+    void enfileirar(dado entrada) {
+        dado* novo = new dado;
+        *novo = entrada;
+        novo->proximo = nullptr;
+        if (fim != nullptr)
+            fim->proximo = novo;
+        else
+            inicio = novo;
+        fim = novo;
+    }
+
+    dado desenfileirar() {
+        if (inicio == nullptr) throw runtime_error("Fila vazia!");
+        dado retornado = *inicio;
+        dado* removido = inicio;
+        inicio = inicio->proximo;
+        if (inicio == nullptr) fim = nullptr;
+        delete removido;
+        return retornado;
+    }
+
+    bool vazia() const {
+        return inicio == nullptr;
+    }
 };
-		int main(){
-			fila banco;
-			string comando,tipo;
-			dado entrada, atendido;
-			cin>>comando;
-			while (comando != "fim"){
-					if (comando == "normal"){
-						cin>>entrada.nome;
-						entrada.tipo = "normal";
-						banco.enfileirar(entrada);
-					} else if (comando == "prioridade"){
-						cin>>entrada.nome;
-						entrada.tipo = "prioridade";
-						banco.enfileirar(entrada);
-					} else if (comando == "atender"){
-						//COMPLETE AQUI
-					}
-					cin>>comando;
-			}
-	return 0;
+
+
+void atendimento(fila& normais, fila& prioritarios, int& contPrioridade) {
+    if (!prioritarios.vazia() && contPrioridade < 3) {
+        cout << prioritarios.desenfileirar().nome << endl;
+        contPrioridade++;
+    } else if (!normais.vazia()) {
+        cout << normais.desenfileirar().nome << endl;
+        contPrioridade = 0;  
+    } else if (!prioritarios.vazia()) {
+        cout << prioritarios.desenfileirar().nome << endl;
+        contPrioridade++;
+    } else {
+        cout << "AGUARDE" << endl;
+    }
 }
+
+int main() {
+    fila normais;
+    fila prioritarios;
+    string comando;
+    dado entrada;
+    int contPrioridade = 0;
+
+    cin >> comando;
+    while (comando != "fim") {
+        if (comando == "normal") {
+            cin >> entrada.nome;
+            entrada.tipo = "normal";
+            normais.enfileirar(entrada);
+        } else if (comando == "prioridade") {
+            cin >> entrada.nome;
+            entrada.tipo = "prioridade";
+            prioritarios.enfileirar(entrada);
+        } else if (comando == "atender") {
+            atendimento(normais, prioritarios, contPrioridade);
+        }
+        cin >> comando;
+    }
+
+    return 0;
+}
+
+
 
 
 
