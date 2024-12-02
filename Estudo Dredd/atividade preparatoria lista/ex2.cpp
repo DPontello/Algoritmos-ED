@@ -120,21 +120,16 @@ listadup::listadup() {
     tamanho = 0;
 }
 
-// construtor de cópia
-listadup::listadup(const listadup& umaLista) {
-    
-}
-
 // destrutor da lista (chama função privada auxiliar)
 listadup::~listadup( ) {
-    for(int i = 0; i < tamanho; i++){
-        delete[] primeiro;
-    }
+   removeTodos();
 }    
 
 // remove todos os elementos da lista
 void listadup::removeTodos( ) {
-
+    while(!vazia()){
+        removeNoInicio();
+    }
 }    
 
 // sobrecarga do operador de atribuição
@@ -154,45 +149,130 @@ listadup& listadup::operator=(const listadup& umaLista){
 
 // insere por no final da lista
 void listadup::insereNoFim(acaoPrograma acao) {
-
+    noh *novo = new noh(acao);
+    if (vazia()) {
+        primeiro = novo;
+        ultimo = novo;
+    } else {
+        novo->anterior = ultimo;
+        ultimo->proximo = novo;
+        ultimo = novo;
+    }
+    tamanho++;
 }
 
 // insere no início da lista
 void listadup::insereNoInicio(acaoPrograma acao) {
-    noh* novo = new noh(acao);
-    primeiro = novo;
-    ultimo = novo;
+    noh *novo = new noh(acao);
+    if (vazia()) {
+        primeiro = novo;
+        ultimo = novo;
+    } else {
+        novo->proximo = primeiro;
+        primeiro->anterior = novo;
+        primeiro = novo;
+    }
     tamanho++;
 }
 
 // insere em uma determinada posição da lista
 void listadup::insereNaPosicao(int posicao, acaoPrograma acao){
-
-}
-                   
+    if(posicao == 0){
+        insereNoInicio(acao);
+    } 
+    if(posicao == tamanho){
+        insereNoFim(acao);
+    }
+    else {
+        noh *novo = new noh(acao);
+        noh *aux = primeiro;
+        for(int i = 0; i < posicao - 1; i++){
+            aux = aux->proximo;
+        }
+        novo->proximo = aux->proximo;
+        if(aux->proximo != NULL){
+            aux->proximo->anterior = novo;
+        }
+        aux->proximo = novo;
+        novo->anterior = aux;
+    }
+    tamanho++;
+}                   
 
 int listadup::procura(string valor) {
-
+    noh *aux = primeiro;
+    int posicao = 0;
+    while(aux != NULL){
+        if(aux->acao.nomeAcao == valor){
+            return posicao;
+        } else {
+            aux = aux->proximo;
+            posicao++;
+        }
+    }
+    return -1;
 }
 
 // método básico que *percorre* uma lista, imprimindo seus elementos
 void listadup::imprime() {
-   
+    if(vazia())throw runtime_error("Lista vazia!");
+    
+    noh *aux = primeiro;
+    while(aux != NULL){
+        cout << "(" <<  aux->acao.identificador << ", " << aux->acao.nomeAcao << ", " << aux->acao.tempoConsumido << ", " << aux->acao.tempoExecucao << ")" << endl;
+        aux = aux->proximo;
+    }
+
+    aux = ultimo;
+    cout << "IMPRIMINDO INVERSO" << endl;
+    while(aux != NULL){
+        cout << "(" <<  aux->acao.identificador << ", " << aux->acao.nomeAcao << ", " << aux->acao.tempoConsumido << ", " << aux->acao.tempoExecucao << ")" << endl;
+        aux = aux->anterior;
+    }
 }
+
 
 // verifica se a lista está vazia
 inline bool listadup::vazia() {
-
+    return primeiro == NULL;
 }
 
 void listadup::removeNoInicio() {
+    if (vazia()) {
+        cout << "Remoção em lista vazia!" << endl;
+        return;
+    }
 
+    noh *aux = primeiro;
+
+    if (primeiro == ultimo) {
+        primeiro = nullptr;
+        ultimo = nullptr;
+    } else {
+        primeiro = primeiro->proximo;
+        primeiro->anterior = nullptr;
+    }
+
+    delete aux;
+    tamanho--;
 }
 
 
 void listadup::removeNoFim() {
+    if(vazia())throw runtime_error("Remoção em lsita vazia!");
+    noh *aux = ultimo;
 
-}
+        if (primeiro == ultimo) {
+            primeiro = nullptr;
+            ultimo = nullptr;
+        } else {
+            ultimo = ultimo->anterior;
+            ultimo->proximo = nullptr;
+        }
+
+        delete aux;
+        tamanho--;
+    }
 
 
 int main() {
